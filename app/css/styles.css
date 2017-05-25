@@ -1,0 +1,32 @@
+body {
+  background: url(../images/glow.png) left top no-repeat #02031d; }
+
+h1 {
+  color: white;
+  font-family: 'Nixie One', cursive; }
+
+.window {
+  z-index: -1;
+  position: absolute; }
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 64px;
+    line-height: 130px;
+    margin-top: 10%;
+    margin-left: 10%; }
+  .window {
+    left: 55%;
+    top: 10%; } }
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 50%;
+    margin-left: 5%; }
+  .window {
+    left: 50%;
+    top: 35%;
+    width: 100px;
+    height: 130px; } }
