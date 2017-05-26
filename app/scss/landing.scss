@@ -1,0 +1,31 @@
+/* Background */
+
+.landing {
+    background: url(../images/glow.png) left top no-repeat #02031d;
+}
+
+
+/* Attributes */
+
+.window {
+    z-index: -1;
+    position: absolute;
+}
+
+
+/* Size specific */
+
+@media only screen and (min-width: 768px) {
+    .window {
+        left: 48%;
+        top: 10%;
+    }
+    h1 {
+        margin-top: 12%;
+        margin-left: 10%;
+    }
+    p {
+        margin-top: 1%;
+        margin-left: 10%;
+    }
+}

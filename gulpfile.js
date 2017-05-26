@@ -17,6 +17,13 @@ gulp.task('sass', function () {
             stream: true
         }))
 })
+gulp.task('css', function () {
+    return gulp.src('app/css/**/*.css')
+        .pipe(gulp.dest('app/css'))
+        .pipe(browserSync.reload({
+            stream: true
+        }))
+})
 gulp.task('browserSync', function () {
     browserSync.init({
         server: {
@@ -42,17 +49,14 @@ gulp.task('clean:dist', function () {
     return del.sync('dist');
 })
 gulp.task('default', function (callback) {
-    runSequence(['sass', 'browserSync', 'watch'],
+    runSequence(['sass', 'css', 'browserSync', 'watch'],
         callback
     )
 })
 
-
-
-
-
-gulp.task('watch', ['browserSync', 'sass'], function () {
+gulp.task('watch', ['browserSync', 'sass', 'css'], function () {
     gulp.watch('app/scss/**/*.scss', ['sass']);
+    gulp.watch('app/css/**/*.css', ['css']);
     gulp.watch('app/*.html', browserSync.reload);
     gulp.watch('app/js/**/*.js', browserSync.reload);
 })

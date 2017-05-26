@@ -1,32 +1,19 @@
 body {
-  background: url(../images/glow.png) left top no-repeat #02031d; }
+  background: #02031d; }
 
+/* Text Layout */
 h1 {
   color: white;
-  font-family: 'Nixie One', cursive; }
+  font-family: 'Josefin Slab', serif; }
 
-.window {
-  z-index: -1;
-  position: absolute; }
+p {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif; }
 
 @media only screen and (min-width: 768px) {
   h1 {
-    font-size: 64px;
-    line-height: 130px;
-    margin-top: 10%;
-    margin-left: 10%; }
-  .window {
-    left: 55%;
-    top: 10%; } }
-
-@media only screen and (max-width: 767px) {
-  h1 {
-    font-size: 20px;
-    line-height: 40px;
-    margin-top: 50%;
-    margin-left: 5%; }
-  .window {
-    left: 50%;
-    top: 35%;
-    width: 100px;
-    height: 130px; } }
+    font-size: 75px;
+    line-height: 80px;
+    letter-spacing: 15px; }
+  p {
+    letter-spacing: 2px; } }
