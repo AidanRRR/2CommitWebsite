@@ -1,0 +1,24 @@
+/* Size specific */
+
+.contact {
+    background: url(../images/glow.png) left top no-repeat #02031d;
+}
+
+.EarthWrapper {
+    width: 500px;
+    height: 500px;
+}
+
+.EarthSection {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {}
+    p {
+        margin-top: 1%;
+        margin-left: 30%;
+    }
+}
