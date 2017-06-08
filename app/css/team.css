@@ -1,0 +1,31 @@
+.team {
+  background: url(../images/glow.png) left top no-repeat #02031d; }
+
+@media only screen and (min-width: 768px) {
+  .team_members {
+    color: white;
+    margin-left: 10%; }
+  .team_member {
+    height: 150px;
+    margin: 15px; }
+  #koen {
+    background-color: red; }
+  #katia {
+    background-color: red; }
+  #stijn {
+    background-color: red; }
+  #dimitri {
+    background-color: red; }
+  #richard {
+    background-color: red; }
+  #bianca {
+    background-color: red; }
+  #kristof {
+    background-color: red; }
+  #tanguy {
+    background-color: red; }
+  #aidan {
+    background-color: red; }
+  h1 {
+    margin-top: 10%;
+    margin-left: 10%; } }

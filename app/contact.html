@@ -21,43 +21,34 @@
 
     <!-- Scripts -->
     <script src="js/modernizr.custom.js"></script>
-
 </head>
 
 <body class="contact">
     <h1>Contact</h1>
-
-    <div class="EarthSection" id="EarthSection">
-        <div class="Earth" id="Earth"></div>
-    </div>
-
     <div class="row">
-        <form class="col s4">
-            <div class="row">
-                <div class="input-field col s6">
-                    <input id="first_name" type="text" class="validate">
-                    <label for="first_name">First Name</label>
+        <div class="col s6">
+            <div class="row contact_form">
+                <div id="contact-info">
+                    <h3>Telefoon</h3>
+                    <p>03/450.80.30</p>
+                    <br />
+                    <h3>Email</h3>
+                    <p>contact.us@2commit.be</p>
+                    <br />
+                    <h3>Adres</h3>
+                    <p>Prins Boudewijnlaan 43<br />2650 Edegem</p>
+                    <br />
+                    <br />
                 </div>
-                <div class="input-field col s6">
-                    <input id="last_name" type="text" class="validate">
-                    <label for="last_name">Last Name</label>
-                </div>
+                <h2>Of laat een berichtje achter...</h2>
             </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <input id="email" type="email" class="validate">
-                    <label for="email">Email</label>
-                </div>
+        </div>
+        <div class="col s6">
+            <div class="EarthSection" id="EarthSection">
+                <div class="Earth" id="Earth"></div>
             </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <textarea id="textarea1" class="materialize-textarea"></textarea>
-                    <label for="textarea1">Message</label>
-                </div>
-            </div>
-        </form>
+        </div>
     </div>
-
 
     <!--build:js js/main.min.js -->
     <script src="js/main.js"></script>
@@ -78,7 +69,28 @@
 
     <!-- Materialize -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-
 </body>
 
 </html>
+
+
+<!--
+
+                    <div id="contact-message">
+                    <div class="input-field col s4">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">Voornaam</label>
+                    </div>
+                    <div class="input-field col s4">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Achternaam</label>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s8">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                </div>
+
+                -->
