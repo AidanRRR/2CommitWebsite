@@ -1,6 +1,11 @@
 $commit-white: white;
 $commit-gray: white;
 $commit-purple: #5f5f87;
+$color-primary-0: #02031D; // Main Primary color */
+$color-primary-1: #131450;
+$color-primary-2: #060733;
+$color-primary-3: #00010C;
+$color-primary-4: #000002;
 body {
     background: #02031d;
 }
@@ -19,6 +24,11 @@ h2 {
 }
 
 h3 {
+    color: $commit-white;
+    font-family: 'Josefin Slab', serif;
+}
+
+h4 {
     color: $commit-purple;
     font-family: 'Josefin Slab', serif;
 }
@@ -38,6 +48,9 @@ p {
         font-size: 2.3rem;
     }
     h3 {
+        font-size: 1.3rem;
+    }
+    h4 {
         font-size: 1.3rem;
         letter-spacing: .2rem;
         text-transform: uppercase;

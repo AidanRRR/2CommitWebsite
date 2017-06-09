@@ -4,28 +4,26 @@
 @media only screen and (min-width: 768px) {
   .team_members {
     color: white;
-    margin-left: 10%; }
-  .team_member {
-    height: 150px;
-    margin: 15px; }
+    margin: 0px; }
   #koen {
-    background-color: red; }
+    background-color: #FCD6EB; }
   #katia {
-    background-color: red; }
+    background-color: #24ADCD; }
   #stijn {
-    background-color: red; }
+    background-color: #FFE84A; }
   #dimitri {
-    background-color: red; }
+    background-color: #F6F69E; }
   #richard {
-    background-color: red; }
+    background-color: #582B7C; }
   #bianca {
-    background-color: red; }
+    background-color: #97D16A; }
   #kristof {
-    background-color: red; }
+    background-color: #A91D7E; }
   #tanguy {
-    background-color: red; }
+    background-color: #01495F; }
   #aidan {
-    background-color: red; }
+    background-color: #28285A; }
   h1 {
-    margin-top: 10%;
-    margin-left: 10%; } }
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%; } }
