@@ -53,10 +53,13 @@ gulp.task('default', function (callback) {
         callback
     )
 })
-
 gulp.task('watch', ['browserSync', 'sass', 'css'], function () {
     gulp.watch('app/scss/**/*.scss', ['sass']);
     gulp.watch('app/css/**/*.css', ['css']);
     gulp.watch('app/*.html', browserSync.reload);
     gulp.watch('app/js/**/*.js', browserSync.reload);
 })
+gulp.task('develop', ['sass', 'browserSync'], function () {
+    gulp.watch('app/scss/**/*.scss', ['sass']);
+    gulp.watch('app/*html', browserSync.reload);
+} )

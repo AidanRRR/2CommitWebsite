@@ -1,0 +1,55 @@
+[class^="lh-eff"] {
+  font-size: 22px;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  padding: .5em .8em;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent; }
+
+[class^="lh-eff"]::before, [class^="lh-eff"]::after, [class^="lh-eff"] span::before, [class^="lh-eff"] span::after {
+  content: '';
+  position: absolute; }
+
+.lh-eff1 {
+  overflow: visible;
+  padding: .25em .4em; }
+
+.lh-eff1::before {
+  top: -webkit-calc(95% - .25em);
+  top: calc(95% - .25em);
+  left: -.3em;
+  width: .6em;
+  height: .6em;
+  border-radius: 1.2em;
+  -webkit-transition: -webkit-transform .25s;
+  transition: transform .25s;
+  -webkit-transform: scale(0);
+  transform: scale(0); }
+
+.lh-eff1::after {
+  top: 95%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  -webkit-transition: -webkit-transform .2s ease .15s;
+  transition: transform .2s ease .15s;
+  transform-origin: 0 50%;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0); }
+
+.lh-eff1:hover::before {
+  -webkit-transform: scale(1);
+  transform: scale(1); }
+
+.lh-eff1:hover::after {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1); }
+
+.c1-blue::before, .c1-blue::after {
+  background-color: #331dce; }
