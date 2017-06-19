@@ -12,11 +12,10 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans+Condensed:300" rel="stylesheet">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/overlay.css" />
+    <link rel="stylesheet" href="css/pages/styles.css">
     <link rel="stylesheet" type="text/css" href="css/hover-effects.css" />
-    <link rel="stylesheet" type="text/css" href="css/solutions.css" />
-
+    <link rel="stylesheet" type="text/css" href="css/pages/solutions.css" />
+    <link rel="stylesheet" type="text/css" href="css/overlay.css" />
 
     <!-- Scripts -->
     <script src="js/modernizr.custom.js"></script>
@@ -26,7 +25,7 @@
 <body class="solutions">
     <h1>Solutions</h1>
 
-    <div class="solution-container">
+    <div id="solution-container" class="solution-container">
         <div class="solution-left">
             <div class="bg-consultancy">
                 <div class="bg-layer">
@@ -35,29 +34,49 @@
         </div>
 
         <div class="solution-selection">
-            <h3 class="lh-eff1 c1-blue">.NET Consultancy Services</h3>
+            <h3 v-on:click="toggleConsultancy" class="lh-eff1 c1-blue">.NET Consultancy Services</h3>
             <br />
-            <h3 class="lh-eff1 c1-blue">Development Services</h3>
+            <h3 v-on:click="toggleDevelopment" class="lh-eff1 c1-blue">Development Services</h3>
             <br />
-            <h3 class="lh-eff1 c1-blue">Process Services</h3>
+            <h3 v-on:click="toggleSolution" class="lh-eff1 c1-blue">Process Services</h3>
         </div>
         <div class="solution-right">
             <div class="solution-text">
-                <p>Onze consultants helpen samen met onze klanten kwalitatieve oplossingen te ontwikkelen.</p>
-                <p>Ze werken volgens de coding guidelines en marktstandaarden.</p>
-                <p>Een persoonlijk opleidingsplan helpt de consultants bij te blijven met de nieuwste standaarden, waardoor
-                    ze samen met klanten kunnen werken aan toekomstgerichte oplossingen.</p>
-                <p>Daarnaast is het voor 2commit ook zeer belangrijk de juiste consultant bij de juiste klant te plaatsen. Tevreden
-                    klanten en consultants zorgen voor het ideale evenwicht!</p>
+                <div v-if="consultancy" id="consultancy">
+                    <h3>.NET Consultancy Services</h3>
+                    <p>Onze consultants helpen samen met onze klanten kwalitatieve oplossingen te ontwikkelen.</p>
+                    <p>Ze werken volgens de coding guidelines en marktstandaarden.</p>
+                    <p>Een persoonlijk opleidingsplan helpt de consultants bij te blijven met de nieuwste standaarden, waardoor
+                        ze samen met klanten kunnen werken aan toekomstgerichte oplossingen.</p>
+                    <p>Daarnaast is het voor 2commit ook zeer belangrijk de juiste consultant bij de juiste klant te plaatsen.
+                        Tevreden klanten en consultants zorgen voor het ideale evenwicht!</p>
+                </div>
+                <div v-if="development" id="development">
+                    <h3>Development Services</h3>
+                    <p>Aan de hand van best practices en onze ervaringen, nemen we jouw omgeving onder de loupe en bekijken
+                        we samen wat de verwachtingen zijn en hoe we dit kunnen optimaliseren.</p>
+                </div>
+                <div v-if="process" id="process">
+                    <h3>Process Services</h3>
+                    <p>Kwalitatieve software bouwen is niet alleen afhankelijk van technische capaciteiten, maar ook van het
+                        applicatieproces.
+                    </p>
+                    <p>Samen met jou bekijken we hoe het ontwikkelingsproces kan geoptimaliseerd worden aan de hand van ALM
+                        (Application Lifecycle Management) principes.</p>
+                    <p>We begeleiden jullie in het praktisch uitwerken van deze principes aan de hand van de Microsoft Tools.</p>
+                </div>
             </div>
         </div>
     </div>
 
+    <!-- Vue -->
+    <script src="https://unpkg.com/vue"></script>
+
+    <!-- Page script -->
+    <script src="js/pages/solutions.js"></script>
 
     <!--build:js js/main.min.js -->
-    <script src="js/main.js"></script>
     <script src="js/classie.js"></script>
-    <script src="js/overlay.js"></script>
     <!-- endbuild -->
 
 </body>

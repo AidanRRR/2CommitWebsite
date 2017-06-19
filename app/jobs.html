@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Jobs</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans+Condensed:300" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/pages/styles.css">
+    <link rel="stylesheet" href="css/pages/jobs.css">
+    <link rel="stylesheet" type="text/css" href="css/overlay.css" />
+
+    <!-- Scripts -->
+    <script src="js/modernizr.custom.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+</head>
+
+<body class="commitment">
+
+    <h1>Jobs</h1>
+
+    <div id="container" class="container">
+        <div id="scene" class="scene">
+            <div class="layer" data-depth="1.00"><img src="images/layer1.png"></div>
+            <div class="layer" data-depth="0.80"><img src="images/layer2.png"></div>
+            <div class="layer" data-depth="0.60"><img src="images/layer3.png"></div>
+            <div class="layer" data-depth="0.40"><img src="images/layer4.png"></div>
+            <div class="layer" data-depth="0.20"><img src="images/layer5.png"></div>
+            <div class="layer" data-depth="0.00"><img src="images/layer6.png"></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/parallax.js"></script>
+    <script>
+        // Pretty simple huh?
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+    </script>
+</body>
+
+
+</html>

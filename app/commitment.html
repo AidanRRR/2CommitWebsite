@@ -12,18 +12,33 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans+Condensed:300" rel="stylesheet">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/commitment.css">
+    <link rel="stylesheet" href="css/pages/styles.css">
+    <link rel="stylesheet" href="css/pages/commitment.css">
     <link rel="stylesheet" type="text/css" href="css/overlay.css" />
 
     <!-- Scripts -->
     <script src="js/modernizr.custom.js"></script>
+    <script src="js/pages/commitment.js"></script>
+    <script src="js/parallax.js"></script>
 
 </head>
 
 <body class="commitment">
 
     <h1>Commitment</h1>
+
+    <div id="scene" class="scene">
+        <div class="layer helmet" data-depth="1.00">
+            <img class="commitment-img" src="images/commitment-helmet.png" alt="">
+        </div>
+        <div class="layer splashes" data-depth="0.80">
+            <img class="commitment-img" src="images/commitment-splashes.png" alt="">
+        </div>
+        <div class="layer stars" data-depth="0.60">
+            <img class="commitment-img" src="images/commitment-stars.png" alt="">
+        </div>
+    </div>
+
     <p>
         Een juiste architectuur of development proces bepalen is niet makkelijk.
     </p>
@@ -36,35 +51,40 @@
     </p>
     <p>Wij willen een meerwaarde voor jouw bedrijf betekenen!</p>
     <br />
-    <!--
+
     <p>
         Met behulp van Microsoft technologie helpen we bedrijven <br /> bij het maken van custom software. <br />
         <br />Als customer-centered onderneming leveren we niet zomaar applicaties <br /> op maar zoeken we mee uit hoe een
         applicatie een maximale <br /> toegevoegde waarde kan zijn voor uw organisatie.
     </p>
-    -->
-
-    <!-- Overlay -->
-    <!--<p><button id="trigger-overlay" type="button">Open Overlay</button></p>-->
-    <div class="overlay overlay-contentscale">
-        <button type="button" class="overlay-close">Close</button>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Clients</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
 
     <!--build:js js/main.min.js -->
-    <script src="js/main.js"></script>
     <script src="js/classie.js"></script>
-    <script src="js/overlay.js"></script>
     <!-- endbuild -->
 
+    <script>
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene, {
+            relativeInput: true,
+            clipRelativeInput: false,
+            hoverOnly: true,
+            inputElement: document.getElementById('myinput'),
+            calibrateX: false,
+            calibrateY: true,
+            invertX: false,
+            invertY: true,
+            limitX: false,
+            limitY: 10,
+            scalarX: 10,
+            scalarY: 10,
+            frictionX: 0.1,
+            frictionY: 0.1,
+            originX: 0.0,
+            originY: 0.0,
+            precision: 1,
+            pointerEvents: false
+        });
+    </script>
 </body>
 
 </html>
