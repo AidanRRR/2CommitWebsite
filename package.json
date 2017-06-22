@@ -2,10 +2,9 @@
   "name": "2commitwebsite",
   "version": "1.0.0",
   "description": "The 2Commit company website",
-  "main": "server.js",
+  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
