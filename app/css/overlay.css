@@ -1,12 +1,12 @@
 /* Overlay style */
 
 .overlay {
+    background: url(../../images/glow.png) left top no-repeat #02031d;
     position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(to right bottom, #02031d 50%, #212531 50%);
 }
 
 

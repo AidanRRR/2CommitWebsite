@@ -1,6 +1,7 @@
 $commit-white: white;
 $commit-gray: white;
 $commit-purple: #5f5f87;
+$commit-highlight: #FCD291;
 $color-primary-0: #02031D; // Main Primary color */
 $color-primary-1: #131450;
 $color-primary-2: #060733;
@@ -37,6 +38,10 @@ h4 {
 p {
     color: $commit-white;
     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.highlight {
+    color: $commit-highlight;
 }
 
 @media only screen and (min-width: 768px) {

@@ -20,6 +20,7 @@
     <script src="js/modernizr.custom.js"></script>
     <script src="js/pages/commitment.js"></script>
     <script src="js/parallax.js"></script>
+    <script src="js/classie.js"></script>
 
 </head>
 
@@ -39,33 +40,38 @@
         </div>
     </div>
 
-
-    <p>Een juiste architectuur of development proces bepalen is niet makkelijk.
-    <br />
-    <br />
-    Welke technologie/proces moet je kiezen? Is deze keuze future proof?
-    <br />Het zijn belangrijke keuzes die gemaakt moeten worden.
-    <br />
-    <br />
-    2commit is een enthousiast team van consultants die jou kunnen ondersteunen in dit proces.
-    <br />
-    Wij willen een meerwaarde voor jouw bedrijf betekenen!
-    <br />
-    <br />
-    Met behulp van Microsoft technologie helpen we bedrijven bij het maken van custom software.
-    <br />
-    <br />
-    Als customer-centered onderneming leveren we niet zomaar applicaties op maar 
-    <br />
-    zoeken we mee uit hoe een applicatie een maximale toegevoegde waarde kan zijn voor uw organisatie.
+    <p>Een juiste architectuur of <span class="highlight">development proces</span> bepalen is niet makkelijk.
+        <br />
+        <br /> Welke technologie/proces moet je kiezen? Is deze keuze future proof?
+        <br />Het zijn belangrijke keuzes die gemaakt moeten worden.
+        <br />
+        <br /> 2commit is een enthousiast <span class="highlight">team</span> van consultants die jou kunnen ondersteunen
+        in dit proces.
+        <br /> Wij willen een <span class="highlight">meerwaarde</span> voor jouw bedrijf betekenen!
+        <br />
+        <br /> Met behulp van <span class="highlight">Microsoft technologie</span> helpen we bedrijven bij het maken van
+        <span class="highlight">custom software</span>.
+        <br />
+        <br /> Als customer-centered onderneming leveren we niet zomaar applicaties op
+        <br />maar zoeken we mee uit hoe een applicatie een maximale
+        <br /> toegevoegde waarde kan zijn voor uw organisatie.
     </p>
 
+    <!-- Overlay -->
+    <p><button id="trigger-overlay" type="button">Open Overlay</button></p>
+    <div class="overlay overlay-contentscale">
+        <button type="button" class="overlay-close">Close</button>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 
-    
-
-    <!--build:js js/main.min.js -->
-    <script src="js/classie.js"></script>
-    <!-- endbuild -->
 
     <script>
         var scene = document.getElementById('scene');
@@ -78,7 +84,7 @@
             calibrateY: true,
             invertX: false,
             invertY: true,
-            limitX: false,
+            limitX: 50,
             limitY: 10,
             scalarX: 10,
             scalarY: 10,
@@ -90,6 +96,9 @@
             pointerEvents: false
         });
     </script>
+
+    <script src="js/overlay.js"></script>
+
 </body>
 
 </html>

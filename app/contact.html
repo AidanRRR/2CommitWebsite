@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/pages/styles.css">
     <link rel="stylesheet" href="css/pages/contact.css">
     <link rel="stylesheet" type="text/css" href="css/overlay.css" />
+    <link rel="stylesheet" href="css/simple-grid.css">
 
     <!-- Scripts -->
     <script src="js/jquery-2.2.4.min.js"></script>
@@ -24,24 +25,65 @@
 
 <body class="contact">
     <h1>Contact</h1>
-    <div class="contact-info">
-        <h3>Telefoon</h3>
-        <p>03/450.80.30</p>
-        <br />
-        <h3>Email</h3>
-        <p>contact.us@2commit.be</p>
-        <br />
-        <h3>Adres</h3>
-        <p>Prins Boudewijnlaan 43<br />2650 Edegem</p>
-        <br />
-        <br />
-        <h2>Of laat een berichtje achter...</h2>
-    </div>
-    <div class="EarthSection" id="EarthSection">
-        <div class="Earth" id="Earth"></div>
-    </div>
+    <div id="contact-container">
+        <div v-if="message==false" class="contact-info">
+            <h3>Telefoon</h3>
+            <p>03/450.80.30</p>
+            <br />
+            <h3>Email</h3>
+            <p>contact.us@2commit.be</p>
+            <br />
+            <h3>Adres</h3>
+            <p>Prins Boudewijnlaan 43<br />2650 Edegem</p>
+            <br />
+            <br />
+            <h2>Of laat een <span v-on:click="sendMessage" class="highlight">berichtje</span> achter...</h2>
+        </div>
+
+        <transition name="fade">
+            <div v-if="message==true" class="contact-form">
+                <form>
+                    <div class="grid">
+                        <div class="col-1-2">
+                            <div class='form-row'>
+                                <input class='text' type='text' placeholder='Voornaam'>
+                            </div>
+                        </div>
+                        <div class="col-1-2">
+                            <div class='form-row'>
+                                <input class='text' type='text' placeholder='Achternaam'>
+                            </div>
+                        </div>
+                        <div class="col-1-1">
+                            <div class='form-row'>
+                                <input class='text' type='email' placeholder='Email'>
+                            </div>
+                        </div>
+                        <div class="col-1-1">
+                            <div class='form-row'>
+                                <textarea class='text' placeholder='Bericht' rows='7'></textarea>
+                            </div>
+                        </div>
+                        <div class='form-row'>
+                            <button type='submit' class='btn'>Verstuur</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </transition>
+
+        <transition name="scale-up">
+            <div v-if="message==false" class="EarthSection" id="EarthSection">
+                <div class="Earth" id="Earth"></div>
+            </div>
+        </transition>
 
     </div>
+    <!-- Vue -->
+    <script src="https://unpkg.com/vue"></script>
+
+    <!-- Page script -->
+    <script src="js/pages/contact.js"></script>
 
     <!--build:js js/main.min.js -->
     <script src="js/classie.js"></script>
