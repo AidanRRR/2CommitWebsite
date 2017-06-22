@@ -3,7 +3,7 @@
  */
 
 var express = require('express');
-var logger = require('morgan');
+//var logger = require('morgan');
 var path = require('path');
 var app = express();
 var viewDir = 'app';
