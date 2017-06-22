@@ -13,5 +13,5 @@ var viewDir = 'app';
 
 app.use(express.static(path.join(__dirname, viewDir)));
 
-app.listen(3000);
-console.log('listening on port 3000');
+app.listen(8080);
+console.log('listening on port 8080');
