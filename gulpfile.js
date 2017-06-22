@@ -7,8 +7,6 @@ var cache = require('gulp-cache');
 var del = require('del');
 var runSequence = require('run-sequence');
 
-
-
 gulp.task('sass', function () {
     return gulp.src('app/scss/**/*.scss')
         .pipe(sass())
@@ -62,4 +60,4 @@ gulp.task('watch', ['browserSync', 'sass', 'css'], function () {
 gulp.task('develop', ['sass', 'browserSync'], function () {
     gulp.watch('app/scss/**/*.scss', ['sass']);
     gulp.watch('app/*html', browserSync.reload);
-} )
+})
