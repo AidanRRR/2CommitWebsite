@@ -37,7 +37,7 @@
             <p>Prins Boudewijnlaan 43<br />2650 Edegem</p>
             <br />
             <br />
-            <h2>Of laat een <span v-on:click="sendMessage" class="highlight">berichtje</span> achter...</h2>
+            <h2>Of laat een <span v-on:click="enableMessage" class="highlight">berichtje</span> achter...</h2>
         </div>
 
         <transition name="fade">
@@ -46,26 +46,26 @@
                     <div class="grid">
                         <div class="col-1-2">
                             <div class='form-row'>
-                                <input class='text' type='text' placeholder='Voornaam'>
+                                <input v-model="voornaam" class='text' type='text' placeholder='Voornaam'>
                             </div>
                         </div>
                         <div class="col-1-2">
                             <div class='form-row'>
-                                <input class='text' type='text' placeholder='Achternaam'>
+                                <input v-model="achternaam" class='text' type='text' placeholder='Achternaam'>
                             </div>
                         </div>
                         <div class="col-1-1">
                             <div class='form-row'>
-                                <input class='text' type='email' placeholder='Email'>
+                                <input v-model="email" class='text' type='email' placeholder='Email'>
                             </div>
                         </div>
                         <div class="col-1-1">
                             <div class='form-row'>
-                                <textarea class='text' placeholder='Bericht' rows='7'></textarea>
+                                <textarea v-model="bericht" class='text' placeholder='Bericht' rows='7'></textarea>
                             </div>
                         </div>
                         <div class='form-row'>
-                            <button type='submit' class='btn'>Verstuur</button>
+                            <button v-on:click="sendMessage" class='btn'>Verstuur</button>
                         </div>
                     </div>
                 </form>
@@ -81,6 +81,7 @@
     </div>
     <!-- Vue -->
     <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.3.4"></script>
 
     <!-- Page script -->
     <script src="js/pages/contact.js"></script>
