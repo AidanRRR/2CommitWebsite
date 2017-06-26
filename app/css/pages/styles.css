@@ -1,6 +1,3 @@
-body {
-  background: #02031d; }
-
 /* Text Layout */
 h1 {
   color: white;
@@ -23,7 +20,7 @@ p {
   font-family: 'Open Sans Condensed', sans-serif; }
 
 .highlight {
-  color: #FCD291; }
+  color: #10A2BB; }
 
 @media only screen and (min-width: 768px) {
   h1 {

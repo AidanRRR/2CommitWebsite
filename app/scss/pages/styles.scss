@@ -1,17 +1,13 @@
 $commit-white: white;
 $commit-gray: white;
 $commit-purple: #5f5f87;
-$commit-highlight: #FCD291;
+$commit-highlight: #10A2BB;
 $color-primary-0: #02031D; // Main Primary color */
 $color-primary-1: #131450;
 $color-primary-2: #060733;
 $color-primary-3: #00010C;
 $color-primary-4: #000002;
 $color-primary-flash: #02031D;
-body {
-    background: #02031d;
-}
-
 
 /* Text Layout */
 
@@ -43,6 +39,8 @@ p {
 .highlight {
     color: $commit-highlight;
 }
+
+.logo {}
 
 @media only screen and (min-width: 768px) {
     h1 {

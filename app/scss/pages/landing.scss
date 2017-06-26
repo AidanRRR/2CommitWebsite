@@ -6,6 +6,21 @@
     background: url(../../images/glow.png) left top no-repeat #02031d;
 }
 
+.landing-sub {
+    p {
+        display: inline-block;
+    }
+    img {
+        position: relative;
+        top: 5;
+        margin-left: 5px;
+        transition: .65s;
+    }
+    img:hover {
+        top: -3%;
+    }
+}
+
 
 /* Attributes */
 
@@ -19,7 +34,9 @@
     position: absolute;
 }
 
-.commitment {}
+.mouse-pointer {
+    cursor: pointer;
+}
 
 
 /* Size specific */

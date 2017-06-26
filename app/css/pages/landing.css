@@ -1,6 +1,3 @@
-body {
-  background: #02031d; }
-
 /* Text Layout */
 h1 {
   color: white;
@@ -23,7 +20,7 @@ p {
   font-family: 'Open Sans Condensed', sans-serif; }
 
 .highlight {
-  color: #FCD291; }
+  color: #10A2BB; }
 
 @media only screen and (min-width: 768px) {
   h1 {
@@ -46,6 +43,18 @@ p {
 .landing {
   background: url(../../images/glow.png) left top no-repeat #02031d; }
 
+.landing-sub p {
+  display: inline-block; }
+
+.landing-sub img {
+  position: relative;
+  top: 5;
+  margin-left: 5px;
+  transition: .65s; }
+
+.landing-sub img:hover {
+  top: -3%; }
+
 /* Attributes */
 .window {
   z-index: -1;
@@ -54,6 +63,9 @@ p {
 .stars {
   z-index: -2;
   position: absolute; }
+
+.mouse-pointer {
+  cursor: pointer; }
 
 /* Size specific */
 @media only screen and (min-width: 768px) {
