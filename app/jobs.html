@@ -15,36 +15,35 @@
     <link rel="stylesheet" href="css/pages/styles.css">
     <link rel="stylesheet" href="css/pages/jobs.css">
     <link rel="stylesheet" type="text/css" href="css/overlay.css" />
+    <link rel="stylesheet" type="text/css" href="css/gradient-btn.css" />
 
     <!-- Scripts -->
     <script src="js/modernizr.custom.js"></script>
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="js/pages/jobs.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/classie.js"></script>
 
 </head>
 
-<body class="commitment">
+<body class="jobs">
 
     <h1>Jobs</h1>
-
-    <div id="container" class="container">
-        <div id="scene" class="scene">
-            <div class="layer" data-depth="1.00"><img src="images/layer1.png"></div>
-            <div class="layer" data-depth="0.80"><img src="images/layer2.png"></div>
-            <div class="layer" data-depth="0.60"><img src="images/layer3.png"></div>
-            <div class="layer" data-depth="0.40"><img src="images/layer4.png"></div>
-            <div class="layer" data-depth="0.20"><img src="images/layer5.png"></div>
-            <div class="layer" data-depth="0.00"><img src="images/layer6.png"></div>
-        </div>
+    <p>Een job met de creativiteit & flexibiliteit van een start-up en de stabiliteit van een grote groep?
+        <br />Dat is wat we met 2commit kunnen bieden!<br />
+        <br />Als nieuwe entiteit binnen de Contribute Groep (Cronos),
+        <br />zijn we op zoek naar gedreven consultants die mee de schouders onder het nieuwe initiatief willen zetten!
+        <br />
+        <br />Ben jij een Microsoft ontwikkelaar die ook eens buiten de lijntjes durft te tekenen en eens gaat kijken wat
+        de open-source tools te bieden hebben?
+        <br />Ben jij op zoek naar een tof team, waar ruimte is voor zelfontplooiing?
+        <br /><br />Kijk dan zeker eens of onderstaande vacatures u interesseren!
+    </p>
+    <div class="job-buttons">
+        <button class="gradient-btn live live gradient-color-palette6">.NET Developer</button>
+        <button class="gradient-btn live live gradient-color-palette6">.NET Architect</button>
+        <button class="gradient-btn live live gradient-color-palette6">Freelance consultants</button>
     </div>
-
-    <!-- Scripts -->
-    <script src="js/parallax.js"></script>
-    <script>
-        // Pretty simple huh?
-        var scene = document.getElementById('scene');
-        var parallax = new Parallax(scene);
-    </script>
+    <script src="js/overlay.js"></script>
 </body>
-
 
 </html>
