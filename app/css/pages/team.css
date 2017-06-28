@@ -2,16 +2,21 @@
   background: url(../../images/glow.png) left top no-repeat #02031d; }
 
 .team-select {
-  margin-top: 10%;
   text-align: center; }
 
 #astronaut {
   top: 40px;
-  left: 0;
+  left: 20px;
   z-index: -1;
   position: relative; }
 
 #moon {
+  top: 0;
+  left: 0;
+  z-index: -2;
+  position: relative; }
+
+#planet {
   top: 0;
   left: 0;
   z-index: -2;

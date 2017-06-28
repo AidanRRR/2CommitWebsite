@@ -22,7 +22,7 @@ function AnimateRotate(from, to) {
         deg: to
     }, {
         step: function (now, fx) {
-            $("#moon").css({
+            $("#planet").css({
                 transform: "rotate(" + now + "deg)"
             });
         }

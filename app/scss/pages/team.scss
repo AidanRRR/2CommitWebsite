@@ -3,13 +3,12 @@
 }
 
 .team-select {
-    margin-top: 10%;
     text-align: center;
 }
 
 #astronaut {
     top: 40px;
-    left: 0;
+    left: 20px;
     z-index: -1;
     position: relative;
 }
@@ -21,7 +20,12 @@
     position: relative;
 }
 
-.team-moon {}
+#planet {
+    top: 0;
+    left: 0;
+    z-index: -2;
+    position: relative;
+}
 
 @media only screen and (min-width: 768px) {
     h1 {
