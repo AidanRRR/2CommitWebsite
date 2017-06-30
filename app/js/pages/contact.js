@@ -1,7 +1,7 @@
 new Vue({
-    el: '#contact-container',
+    el: '#contact',
     data: {
-        message: false,
+        message: true,
         voornaam: '',
         achternaam: '',
         email: '',

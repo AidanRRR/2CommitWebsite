@@ -1,0 +1,247 @@
+@import 'pages/styles';
+.flexNavigation,
+.flexNavigation input,
+.flexNavigation textarea {
+    font-family: 'Josefin Slab', serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+.flexNavigation {
+    height: 50px;
+    width: 50px;
+    transition: .7s cubic-bezier(.49, .11, .64, .97) .3s;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+}
+
+.flexNavigation .container {
+    width: 3000px;
+    height: 3000px;
+    background-color: $color-primary-1;
+    transition: .5s cubic-bezier(.49, .11, .64, .97) .5s;
+    overflow: hidden;
+}
+
+.flexNavigation .logoWrapper {
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.flexNavigation .container .logoWrapper,
+.flexNavigation .container .menu {
+    opacity: 0;
+    transition: opacity cubic-bezier(.49, .11, .64, .97) 1s;
+}
+
+.flexNavigation.expanded .container .logoWrapper,
+.flexNavigation.expanded .container .menu {
+    opacity: 1;
+}
+
+.flexNavigation .logoWrapper .menuButton {
+    width: 50px;
+    cursor: pointer;
+    position: relative;
+    height: 50px;
+    display: block;
+    text-align: center;
+}
+
+.flexNavigation .logo {
+    height: 120px;
+    display: block;
+    margin: auto;
+    padding: 0 0 20px;
+    margin-top: 0;
+}
+
+.flexNavigation .menuButton i {
+    font-size: 20px;
+    color: #fff;
+    line-height: 50px;
+    position: absolute;
+    text-align: center;
+    display: block;
+    width: 50px;
+    transition: .5s;
+    top: 0;
+}
+
+.flexNavigation .menu:after {
+    content: "";
+    background-color: #fff;
+    width: 1px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 300px;
+    transition: 4s;
+}
+
+.flexNavigation.expanded .menu:after {
+    margin-top: -30px;
+}
+
+.flexNavigation.expanded .menuButton i.fa-bars {
+    top: -500px;
+}
+
+.flexNavigation .rightContainer {
+    float: right;
+    width: 50%;
+    padding: 10px 100px 0 180px;
+    box-sizing: border-box;
+    margin-top: 54px;
+}
+
+.flexNavigation a.menuButton {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.flexNavigation .rightContainer .heading {
+    color: #f7ff21;
+    font-size: 31px;
+    margin-top: 0
+}
+
+.flexNavigation .rightContainer .text {
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.flexNavigation .rightContainer .boxButton {
+    margin-top: 50px;
+}
+
+.flexNavigation .rightContainer .boxButton a {
+    line-height: 40px;
+    border: solid 2px #fff;
+    padding: 0 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    color: #fff;
+    transition: cubic-bezier(.49, .11, .64, .97) .5s;
+    cursor: pointer;
+}
+
+.flexNavigation .rightContainer .boxButton a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.flexNavigation .menu>ul {
+    list-style: none;
+    display: block;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.flexNavigation .menu>ul li {
+    list-style: none;
+    display: block;
+    padding: 5px 0;
+    line-height: 60px;
+    letter-spacing: 5px;
+}
+
+.flexNavigation .menu li>ul {
+    transition: .5s .2s;
+    overflow: hidden;
+    opacity: 0;
+    padding-left: 10px;
+}
+
+.flexNavigation .menu li>ul>li {
+    margin-top: -45px;
+    transition: .5s .2s;
+}
+
+.flexNavigation .menu a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    transition: cubic-bezier(.49, .11, .64, .97) .5s;
+}
+
+.flexNavigation .menu a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 0;
+    background: #fff;
+    transition: .3s;
+}
+
+.flexNavigation .menu a:hover {
+    padding-left: 10px;
+}
+
+.flexNavigation .menu li:hover>ul {
+    opacity: 1;
+}
+
+.flexNavigation .menu li:hover>ul>li {
+    margin: 0;
+}
+
+
+/*********************** Styles for collapsed ****************/
+
+.flexNavigation.collapsed {
+    left: 50%;
+    margin-left: -25px;
+    height: 50px;
+    width: 50px;
+}
+
+.flexNavigation.collapsed .menuButton i.fa-close {
+    top: -50px;
+}
+
+
+/*********************** Styles for expanded ****************/
+
+.flexNavigation.expanded {
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    margin-left: 0;
+    left: 0;
+}
+
+.flexNavigation.expanded .container {
+    background-color: $color-primary-0;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.flexNavigation.expanded .logoWrapper {
+    height: auto;
+    min-width: 100%;
+    margin-top: 12px;
+}
+
+.flexNavigation.expanded .menu {
+    display: block;
+    color: white;
+    float: left;
+    width: 50%;
+    padding: 0 0 0 170px;
+    box-sizing: border-box;
+}

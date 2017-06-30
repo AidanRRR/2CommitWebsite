@@ -4,18 +4,14 @@ h1 {
   margin-left: 5%;
 }
 
-.contact {
-  background: url(../../images/glow.png) left top no-repeat #02031d;
-}
-
 .EarthSection {
   width: 80%;
   height: 80%;
-}
-
-.contact-info {
-  margin-left: 10%;
-  margin-top: 5%;
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
 }
 
 .contact-form {
@@ -57,7 +53,6 @@ h1 {
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   transition: all .3s ease;
-  z-index: 5;
   border: none;
   background: transparent;
   border: solid 2px #F0F0F0;
@@ -151,5 +146,3 @@ h1 {
 {
   opacity: 0
 }
-
-@media only screen and (min-width: 768px) {}

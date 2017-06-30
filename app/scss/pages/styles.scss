@@ -14,57 +14,52 @@ $color-primary-flash: #02031D;
 h1 {
     color: $commit-white;
     font-family: 'Josefin Slab', serif;
+    font-size: 7rem;
+    line-height: 80px;
+    letter-spacing: 15px;
 }
 
 h2 {
     color: $commit-white;
     font-family: 'Josefin Slab', serif;
+    font-size: 5rem;
 }
 
 h3 {
     color: $commit-white;
     font-family: 'Josefin Slab', serif;
+    font-size: 3rem;
+    margin-bottom: 0px;
 }
 
 h4 {
     color: $commit-purple;
     font-family: 'Josefin Slab', serif;
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    line-height: 50%;
 }
 
 p {
     color: $commit-white;
     font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+
+.page-content {
+    margin-left: 5%;
+}
+
+.no-padding {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 .highlight {
     color: $commit-highlight;
 }
 
-.logo {}
-
-@media only screen and (min-width: 768px) {
-    h1 {
-        font-size: 5rem;
-        line-height: 80px;
-        letter-spacing: 15px;
-    }
-    h2 {
-        font-size: 2.3rem;
-    }
-    h3 {
-        font-size: 1.3rem;
-    }
-    h4 {
-        font-size: 1.3rem;
-        letter-spacing: .2rem;
-        text-transform: uppercase;
-        line-height: 50%;
-    }
-    p {
-        letter-spacing: 2px;
-    }
+.main {
+    background: url(../../images/glow.png) left top no-repeat #02031d;
 }
-
-@media only screen and (max-width: 767px) {}
-
-@media only screen and (max-width: 767px) and (orientation: portrait) {}

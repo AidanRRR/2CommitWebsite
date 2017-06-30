@@ -1,5 +1,5 @@
 var rotation = 0;
-const rotationStep = 20;
+const rotationStep = 40;
 
 function rotateLeft() {
     var from = this.rotation;
@@ -27,4 +27,21 @@ function AnimateRotate(from, to) {
             });
         }
     });
+
+    AnimateSpaceman();
+}
+
+function AnimateSpaceman() {
+    var spaceman = $('#spaceman');
+
+    if (spaceman.hasClass('spaceman-animate')) {
+        spaceman.removeClass('spaceman-animate');
+        spaceman.addClass('spaceman-animate-b');
+    } else {
+        if (spaceman.hasClass('spaceman')) {
+            spaceman.removeClass('spaceman');
+        }
+        spaceman.removeClass('spaceman-animate-b');
+        spaceman.addClass('spaceman-animate');
+    }
 }
