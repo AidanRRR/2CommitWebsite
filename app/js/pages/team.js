@@ -21,12 +21,12 @@ function AnimateRotate(from, to) {
     }).animate({
         deg: to
     }, {
-        step: function (now, fx) {
-            $("#planet").css({
-                transform: "rotate(" + now + "deg)"
-            });
-        }
-    });
+            step: function (now, fx) {
+                $("#planet").css({
+                    transform: "rotate(" + now + "deg)"
+                });
+            }
+        });
 
     AnimateSpaceman();
 }
@@ -45,3 +45,28 @@ function AnimateSpaceman() {
         spaceman.addClass('spaceman-animate');
     }
 }
+
+new Vue({
+    el: '#team-info',
+    data: {
+        aidan: "aidan is heel leuk",
+        dimitri: "jomiaij",
+    },
+    methods: {
+        toggleConsultancy: function () {
+            this.consultancy = true;
+            this.development = false;
+            this.process = false;
+        },
+        toggleDevelopment: function () {
+            this.consultancy = false;
+            this.development = true;
+            this.process = false;
+        },
+        toggleSolution: function () {
+            this.consultancy = false;
+            this.development = false;
+            this.process = true;
+        }
+    }
+})
