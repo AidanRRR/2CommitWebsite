@@ -13,6 +13,7 @@ function rotateRight() {
     var to = this.rotation - rotationStep;
     this.rotation -= rotationStep;
     AnimateRotate(from, to);
+    this.vm.next();
 }
 
 function AnimateRotate(from, to) {
@@ -21,12 +22,12 @@ function AnimateRotate(from, to) {
     }).animate({
         deg: to
     }, {
-            step: function (now, fx) {
-                $("#planet").css({
-                    transform: "rotate(" + now + "deg)"
-                });
-            }
-        });
+        step: function (now, fx) {
+            $("#planet").css({
+                transform: "rotate(" + now + "deg)"
+            });
+        }
+    });
 
     AnimateSpaceman();
 }
@@ -46,27 +47,38 @@ function AnimateSpaceman() {
     }
 }
 
-new Vue({
+var vm = new Vue({
     el: '#team-info',
     data: {
-        aidan: "aidan is heel leuk",
-        dimitri: "jomiaij",
+        team_index: 0,
+        members: [{
+                "name": "Katia",
+                "title": "Account Manager",
+                "quote": "My only focus is satisfaction and trust of our customers and our team."
+            },
+            {
+                "name": "Koen",
+                "title": "Project Manager",
+                "quote": "There is no I in team!"
+            },
+            {
+                "name": "Dimitri",
+                "title": ".NET Architect",
+                "quote": "Every day, work to refine skills you have and to add new tools to your repertoire."
+            },
+            {
+                "name": "Stijn",
+                "title": ".NET Architect",
+                "quote": "Flying is learning how to throw yourself at the ground and miss"
+            }
+        ]
     },
     methods: {
-        toggleConsultancy: function () {
-            this.consultancy = true;
-            this.development = false;
-            this.process = false;
-        },
-        toggleDevelopment: function () {
-            this.consultancy = false;
-            this.development = true;
-            this.process = false;
-        },
-        toggleSolution: function () {
-            this.consultancy = false;
-            this.development = false;
-            this.process = true;
+        next: function () {
+            this.team_index += 1;
+            if (this.team_index == this.members.length) {
+                this.team_index = 0;
+            }
         }
     }
 })
