@@ -10,10 +10,13 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
-    -webkit-tap-highlight-color: rgba(0,0,0,0)
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
-[class^="lh-eff"]::before,[class^="lh-eff"]::after,[class^="lh-eff"] span::before,[class^="lh-eff"] span::after {
+[class^="lh-eff"]::before,
+[class^="lh-eff"]::after,
+[class^="lh-eff"] span::before,
+[class^="lh-eff"] span::after {
     content: '';
     position: absolute
 }
@@ -58,6 +61,7 @@
     transform: scaleX(1)
 }
 
-.c1-blue::before,.c1-blue::after {
-    background-color: rgba(51,29,206,1)
+.c1-blue::before,
+.c1-blue::after {
+    background-color: rgba(51, 29, 206, 1)
 }

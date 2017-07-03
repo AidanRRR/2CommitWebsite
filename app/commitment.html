@@ -10,23 +10,64 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="css/pages/styles.css">
     <link rel="stylesheet" href="css/pages/commitment.css">
-    <link rel="stylesheet" type="text/css" href="css/overlay.css" />
-    <link rel="stylesheet" type="text/css" href="css/gradient-btn.css" />
+    <link rel="stylesheet" type="text/css" href="css/navigation.css" />
 
     <!-- Scripts -->
+    <script src="js/jquery-2.2.4.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
     <script src="js/pages/commitment.js"></script>
     <script src="js/parallax.js"></script>
-    <script src="js/classie.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".flexNavigation").flexNavigation();
+        })
+    </script>
 
 </head>
 
 <body class="commitment">
     <h1>Commitment</h1>
+
+    <div class="flexNavigation collapsed">
+        <div class="container">
+            <a class="menuButton">
+				<i class = "fa fa-bars"></i>
+				<i class = "fa fa-close"></i>
+			</a>
+
+            <div class="logoWrapper">
+                <img class="logo" src="images/logo.svg" />
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="commitment.html">COMMITMENT</a></li>
+                    <li><a href="solutions.html">OPLOSSINGEN</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+                    <li><a href="jobs.html">JOBS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="rightContainer">
+                <h2>We're is hiring!</h2>
+                <p class="text">Lorem ipsum dolor sit amet, consectetuer<br/> adipiscing elit. Aenean commodo<br/> ligula eget dolor. Aenean
+                    massa. Cum sociis <br/> natoque penatibus.</p>
+                <div class="boxButton"><a class="#href"> JOBS</a></div>
+            </div>
+
+        </div>
+    </div>
 
     <div id="scene" class="scene">
         <div class="layer helmet" data-depth="1.00">
@@ -57,21 +98,6 @@
         <br /> toegevoegde waarde kan zijn voor uw organisatie.
     </p>
 
-
-    <!-- Overlay -->
-    <div class="overlay overlay-contentscale">
-        <button type="button" class="overlay-close">Close</button>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Clients</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-
     <script>
         var scene = document.getElementById('scene');
         var parallax = new Parallax(scene, {
@@ -96,8 +122,10 @@
         });
     </script>
 
-    <script src="js/overlay.js"></script>
-
 </body>
+
+<!-- flexNav -->
+<script src="js/flexNav.js"></script>
+
 
 </html>

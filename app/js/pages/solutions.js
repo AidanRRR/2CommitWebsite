@@ -1,25 +1,30 @@
 new Vue({
     el: '#solution-container',
     data: {
-        consultancy: true,
-        development: false,
-        process: false
+        choose: true,
+        services: [false, false, false, false],
+        solutions: [5]
     },
     methods: {
-        toggleConsultancy: function () {
-            this.consultancy = true;
-            this.development = false;
-            this.process = false;
+        toggleServices: function (index) {
+            this.choose = false;
+            var newServices = new Array([this.services.length]);
+            newServices[0] = true;
+            for (var i = 1; i < this.services.length; i++) {
+                newServices[i] = false;
+            }
+            newServices[index] = true;
+            this.services = newServices;
         },
-        toggleDevelopment: function () {
-            this.consultancy = false;
-            this.development = true;
-            this.process = false;
-        },
-        toggleSolution: function () {
-            this.consultancy = false;
-            this.development = false;
-            this.process = true;
+        toggleSolutions: function (index) {
+            this.choose = false;
+            var newSolutions = new Array([this.solutions.length]);
+            newSolutions[0] = true;
+            for (var i = 1; i < this.solutions.length; i++) {
+                newSolutions[i] = false;
+            }
+            newSolutions[index] = true;
+            this.solutions = newSolutions;
         }
     }
 })
