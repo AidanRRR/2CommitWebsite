@@ -40,6 +40,19 @@ h1 {
     cursor: pointer;
 }
 
+.window-animated {
+    width: 430px;
+    height: 580px;
+    background: url("../../images/stars_animation.png") left center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: block;
+    z-index: 2;
+    animation: sprite 2s steps(72) infinite;
+}
+
 
 /* Size specific */
 
@@ -59,5 +72,11 @@ h1 {
     }
     p {
         margin-left: 10%;
+    }
+}
+
+@keyframes sprite {
+    100% {
+        background-position: -30960px;
     }
 }
