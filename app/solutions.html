@@ -79,6 +79,11 @@
                 <img src="images/planet_right.png" alt="">
             </div>
         </div>
+        <button class="center-block" v-if="!choose" v-on:click="back">Terug</button>
+        <div v-if="!choose" class="row">
+            <div class="col-md-12">
+            </div>
+        </div>
         <div v-if="!choose" class="row solutions">
             <div class="col-md-4">
             </div>
@@ -104,7 +109,6 @@
                         de hand van ALM (Application Lifecycle Management) principes.<br /><br />We begeleiden jullie in
                         het praktisch uitwerken van deze principes aan de hand van de Microsoft Tools.</p>
                 </div>
-
                 <div v-if="solutions[0]==true" id="solutions">
                     <h3 v-on:click="toggleSolutions(1)" class="lh-eff1 c1-blue">Domain Driven</h3>
                     <p v-if="solutions[1]">Wij geloven dat software er in de eerste plaats is om bedrijven te ondersteunen. Daarom vinden we het
@@ -132,7 +136,6 @@
                         verbeteren en uit te breiden.
                     </p>
                 </div>
-
             </div>
             <div class="col-md-4">
             </div>

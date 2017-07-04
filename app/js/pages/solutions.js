@@ -2,8 +2,8 @@ new Vue({
     el: '#solution-container',
     data: {
         choose: true,
-        services: [false, false, false, false],
-        solutions: [5]
+        services: [2],
+        solutions: [3]
     },
     methods: {
         toggleServices: function (index) {
@@ -17,6 +17,7 @@ new Vue({
             this.services = newServices;
         },
         toggleSolutions: function (index) {
+            console.log("toggleSolution");
             this.choose = false;
             var newSolutions = new Array([this.solutions.length]);
             newSolutions[0] = true;
@@ -25,6 +26,11 @@ new Vue({
             }
             newSolutions[index] = true;
             this.solutions = newSolutions;
+        },
+        back: function () {
+            this.choose = true;
+            this.services = [false, false, false];
+            this.solutions = [false, false, false, false];
         }
     }
 })
