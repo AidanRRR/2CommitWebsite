@@ -43,6 +43,9 @@ p {
 .main {
   background: url(../../images/glow.png) left top no-repeat #02031d; }
 
+.align-center {
+  text-align: center; }
+
 .flexNavigation,
 .flexNavigation input,
 .flexNavigation textarea {
