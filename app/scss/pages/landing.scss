@@ -89,6 +89,7 @@
         background: url("../../images/stars_final.png") left center;
         left: 50%;
         top: 15%;
+        opacity: 1;
         position: absolute;
         z-index: -1;
         animation: sprite 3s steps(64) infinite;
@@ -113,6 +114,7 @@
         background: url("../../images/stars_final.png") left center;
         left: 55%;
         top: 15%;
+        opacity: 1;
         position: absolute;
         z-index: -1;
         animation: sprite 3s steps(64) infinite;

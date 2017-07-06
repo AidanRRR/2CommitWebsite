@@ -1,0 +1,234 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Styleguide</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/pages/styles.css">
+    <link rel="stylesheet" href="css/pages/styleguide.css">
+    <link rel="stylesheet" href="css/pages/contact.css">
+
+    <!-- Scripts -->
+    <script src="js/modernizr.custom.js"></script>
+
+
+</head>
+
+<body class="main">
+    <h1>Styleguide</h1>
+    <div class="styleguide-section">
+        <h2>Logo</h2>
+        <p>2Commit heeft een aantal kleurvarianten voor haar logo. Eentje voor het gebruik op een lichte kleur; het ander voor
+            het gebruik op een donkere achtergrondkleur. Download hieronder het logopakket in PNG formaat.</p>
+        <button>Download logo</button>
+    </div>
+    <div class="styleguide-divider"></div>
+    <div class="styleguide-section">
+        <h2>Fonts</h2>
+        <p>2Commit heeft 2 fonts. is voorzien voor alle interne communicatie en mailings. Beiden zijn Google web fonts en vrij
+            te gebruiken voor zowel interne als externe communicatie.</p>
+        <button>Download fonts</button>
+    </div>
+    <div class="styleguide-divider"></div>
+    <div class="styleguide-section">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in volupta.</p>
+            </div>
+            <div class="col-md-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum. Te velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </div>
+    <div class="styleguide-divider">
+    </div>
+    <div class="styleguide-section">
+        <h2>Kleuren</h2>
+        <p>Het kleurenpallet van 2Commit bestaat uit 4 kleuren. Tuna: een donkere blauw-grijze tint. Sand: een lichtgrijze 'off-white',
+            Amber: een opvallend felgeel & Mist: een afgewassen groen. Om een consistente merkidentiteit te garanderen dien
+            steeds deze 4 kleuren gebruikt te worden in zowel interne als externe communicatie.
+        </p>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>TUNA</h3>
+            </div>
+            <div class="col-md-4">
+                <h3>SAND</h3>
+            </div>
+            <div class="col-md-4">
+                <h3>AMBER</h3>
+            </div>
+        </div>
+    </div>
+    <div class="styleguide-divider">
+    </div>
+    <div class="styleguide-section">
+        <h2>Presentatie Templates</h2>
+        <p>Download hieronder het Powerpoint template dat je kan gebruiken voor presentaties voor 2Commit.</p>
+    </div>
+    <div class="styleguide-divider">
+    </div>
+    <div class="styleguide-section">
+        <h2>Visuals</h2>
+        <p>Dit zijn beelden die goed bij de kleuren van 2Commit passen. De afbeeldingen zijn vrij te gebruiken zonder licenties.</p>
+    </div>
+    <div class="styleguide-divider">
+    </div>
+    <div class="styleguide-section">
+        <h2>Iconen</h2>
+        <p>De voor 2Commit ontworpen iconen kan je hieronder downloaden.</p>
+    </div>
+    <div class="styleguide-divider">
+    </div>
+    <div id="signature">
+        <div class="styleguide-section">
+            <h2>Handtekening</h2>
+            <div class="contact-form">
+                <form onsubmit="vue.generateSignature(); return false;">
+                    <div class="grid">
+                        <div class="col-1-2">
+                            <div class="form-row">
+                                <input v-model="voornaam" type="text" placeholder="Voornaam" class="text">
+                            </div>
+                        </div>
+                        <div class="col-1-2">
+                            <div class="form-row">
+                                <input v-model="achternaam" type="text" placeholder="Achternaam" class="text">
+                            </div>
+                        </div>
+                        <div class="col-1-1">
+                            <div class="form-row">
+                                <input v-model="email" type="email" placeholder="Email" class="text">
+                            </div>
+                        </div>
+                        <div class="col-1-1">
+                            <div class="form-row">
+                                <input v-model="gsm" type="text" placeholder="GSM" class="text">
+                            </div>
+                        </div>
+                        <div class="form-row pull-right">
+                            <button class="btn">Kopieer HTML</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="divider">
+        </div>
+        <div class="styleguide-section signature">
+            <div class="row">
+                <div class="col-md-8">
+                    <table cellpadding="0" cellspacing="0" width="900" style="border-collapse:collapse;">
+                        <tr>
+                            <td style="width:235px;"> <a href="http://www.2commit.be" style="text-decoration:none;" target="_blank"> <img src="https://www.2commit.be/wp-content/themes/2commit/assets/images/logo.svg" style="width:100px;"/> </a>
+                            </td>
+                            <td style="width:665px; vertical-align: middle;">
+                                <table cellpadding="0" cellspacing="0" width="500" style="border-collapse:collapse;">
+                                    <tr>
+                                        <td style="font-family: Josefin Slab, Arial, sans-serif; font-weight: bold; color:white;font-size: 20px;line-height:25px;">
+                                            {{voornaam}} {{achternaam}}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="tel:aidan.rypens@2commit.be" style="font-family: Open Sans Condensed, Arial, sans-serif; color:white;font-size: 15px;text-decoration:none; line-height:20px; cursor:pointer;">
+                                        {{email}}</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:0 0 10px 0;">
+                                            <a href="tel:+32 32487584091" style="font-family: Open Sans Condensed, Arial, sans-serif; color:white;font-size: 15px;text-decoration:none; line-height:20px; cursor:pointer;">
+                                        {{gsm}}</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-family: Open Sans Condensed, Arial, sans-serif; color:white; font-size: 13px;line-height:15px;">
+                                            Prins Boudewijnlaan, 43<br />2650 Edegem België
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="http://www.2commit.be" style="font-family: Open Sans Condensed, Arial, sans-serif; color:white;font-size: 13px;text-decoration:none; line-height:15px; cursor:pointer;">www.2commit.be</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-4">
+                    <textarea id="signature_code" class="text">
+                    <table cellpadding="0" cellspacing="0" width="900" style="border-collapse:collapse;">
+                            <tr>
+                                <td style="width:235px;">
+                                    <a href="http://www.2commit.be" style="text-decoration:none;" target="_blank">
+                                        <img src="https://www.2commit.be/wp-content/themes/2commit/assets/images/logo.svg" style="width:100px;"/>
+                                    </a>
+                                </td>
+                                <td style="width:665px; vertical-align: middle;">
+                                <table cellpadding="0" cellspacing="0" width="500" style="border-collapse:collapse;">
+                                    <tr>
+                                        <td style="font-family: Josefin Slab, Arial, sans-serif; font-weight: bold; color:white;font-size: 20px;line-height:25px;">
+                                            {{voornaam}} {{achternaam}}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="tel:aidan.rypens@2commit.be" style="font-family: Open Sans Condensed, Arial, sans-serif; color:white;font-size: 15px;text-decoration:none; line-height:20px; cursor:pointer;">
+                                        {{email}}</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:0 0 10px 0;">
+                                            <a href="tel:+32 32487584091" style="font-family: Open Sans Condensed, Arial, sans-serif; color:white;font-size: 15px;text-decoration:none; line-height:20px; cursor:pointer;">
+                                        {{gsm}}</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-family: Open Sans Condensed, Arial, sans-serif; color:white; font-size: 13px;line-height:15px;">
+                                            Prins Boudewijnlaan, 43<br />2650 Edegem België
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="http://www.2commit.be" style="font-family: Open Sans Condensed, Arial, sans-serif; color:white;font-size: 13px;text-decoration:none; line-height:15px; cursor:pointer;">www.2commit.be</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- Vue -->
+<script src="https://unpkg.com/vue"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.3.4"></script>
+
+<script src="js/pages/styleguide.js"></script>
+
+</html>
