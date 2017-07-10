@@ -14,7 +14,7 @@
     transition: .7s cubic-bezier(.49, .11, .64, .97) .3s;
     overflow: hidden;
     position: absolute;
-    z-index: 2;
+    z-index: 5;
     top: 0;
     right: 0;
 }
@@ -74,6 +74,7 @@
 }
 
 .flexNavigation .menu:after {
+    /*
     content: "";
     background-color: #fff;
     width: 1px;
@@ -83,6 +84,7 @@
     left: 50%;
     margin-top: 300px;
     transition: 4s;
+    */
 }
 
 .flexNavigation.expanded .menu:after {

@@ -83,7 +83,7 @@ button:hover {
   transition: 0.7s cubic-bezier(0.49, 0.11, 0.64, 0.97) 0.3s;
   overflow: hidden;
   position: absolute;
-  z-index: 2;
+  z-index: 5;
   top: 0;
   right: 0; }
 
@@ -135,15 +135,17 @@ button:hover {
   top: 0; }
 
 .flexNavigation .menu:after {
-  content: "";
-  background-color: #fff;
-  width: 1px;
-  height: 60px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: 300px;
-  transition: 4s; }
+  /*
+    content: "";
+    background-color: #fff;
+    width: 1px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 300px;
+    transition: 4s;
+    */ }
 
 .flexNavigation.expanded .menu:after {
   margin-top: -30px; }
