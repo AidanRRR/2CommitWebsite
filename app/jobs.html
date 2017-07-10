@@ -19,35 +19,49 @@
 
     <!-- Scripts -->
     <script src="js/modernizr.custom.js"></script>
-    <script src="js/pages/jobs.js"></script>
     <script src="js/classie.js"></script>
 </head>
 
 <body class="jobs">
     <h1>Jobs</h1>
-    <div class="page-content row">
-        <div class="col-md-4">
-            <h3>Werken bij 2Commit</h3>
-            <p>Een job met de creativiteit & flexibiliteit van een start-up en de stabiliteit van een grote groep?
-                <br /><br />Dat is wat we met 2commit kunnen bieden! Als nieuwe entiteit binnen de Contribute Groep (Cronos),
-                zijn we op zoek naar gedreven consultants die mee de schouders onder het nieuwe initiatief willen zetten!
-                <br /><br /> Ben jij een Microsoft ontwikkelaar die ook eens buiten de lijntjes durft te tekenen en eens
-                gaat kijken wat de open-source tools te bieden hebben?
-                <br /><br />Ben jij op zoek naar een tof team, waar ruimte is voor zelfontplooiing? Kijk dan zeker eens of
-                onderstaande vacatures u interesseren!
-                <br>
-            </p>
+    <div id="jobs-container">
+        <div v-if="!cow" class="page-content row">
+            <div class="col-md-6">
+                <h3>Werken bij 2Commit</h3>
+                <p>Een job met de creativiteit & flexibiliteit van een start-up en de stabiliteit van een grote groep?
+                    <br /><br />Dat is wat we met 2commit kunnen bieden! Als nieuwe entiteit binnen de Contribute Groep (Cronos),
+                    zijn we op zoek naar gedreven consultants die mee de schouders onder het nieuwe initiatief willen zetten!
+                    <br /><br /> Ben jij een Microsoft ontwikkelaar die ook eens buiten de lijntjes durft te tekenen en eens
+                    gaat kijken wat de open-source tools te bieden hebben?
+                    <br /><br />Ben jij op zoek naar een tof team, waar ruimte is voor zelfontplooiing? Kijk dan zeker eens
+                    of onderstaande vacatures u interesseren!
+                    <br>
+                </p>
+                <button v-on:click="toggleCV" class="pull-right">Beam me up</button>
+            </div>
+            <div class="jobs-tv-col col-md-6">
+                <img class="jobs-tv" src="images/jobs_tv.png" alt="">
+            </div>
         </div>
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-6">
-            <img src="images/space-tv.png" alt="">
-        </div>
+        <div v-if="cow" class="row">
+            <div class="text-center col-md-12">
+                <div class="image-upload">
+                    <label for="file-input">
+                        <img id="cow" src="images/ufo-cow.png " alt=" ">
+                    </label>
+                    <input id="file-input" type="file" @change="onFileChange" />
+                </div>
 
-
-        <img id="cow" src="images/ufo-cow.png " alt=" ">
+            </div>
+        </div>
     </div>
-    <script src="js/overlay.js "></script>
+
+    <!-- Vue -->
+    <script src="https://unpkg.com/vue"></script>
+
+    <!-- Jobs -->
+    <script src="js/pages/jobs.js"></script>
+
 </body>
 
 </html>

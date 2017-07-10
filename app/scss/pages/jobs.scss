@@ -1,6 +1,7 @@
 @import 'styles';
 .jobs {
     background: url(../../images/glow.png) left top no-repeat #02031d;
+    overflow: hidden;
 }
 
 h1 {
@@ -9,9 +10,21 @@ h1 {
 }
 
 #cow {
-    width: 70%;
+    width: 60%;
+}
+
+.jobs-tv-col {
+    margin-top: -15%;
+}
+
+.jobs-tv {
+    width: 80%; //margin-left: 10%;
 }
 
 #cow:hover {
     content: url('../../images/ufo-cow-hover.png');
+}
+
+.image-upload input {
+    display: none;
 }

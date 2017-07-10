@@ -1,9 +1,10 @@
 var helper = require('sendgrid').mail;
 var toEmail = new helper.Email('aidan.rypens@hotmail.com');
-// api key with only email sending rights
-var apiKey = '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';
 
-var sg = require('sendgrid')(apiKey);
+var apiKeys = require('./apikeys');
+var sendGridAPIKey = apiKeys.sendgrid;
+
+var sg = require('sendgrid')(sendGridAPIKey);
 
 module.exports = {
     sendEmail: function (voornaam, achternaam, email, bericht) {

@@ -19,6 +19,11 @@ app.post('/api/mail', function (req, res) {
 
     res.send(mailSender.sendEmail(voornaam, achternaam, email, bericht));
 });
+app.post('/api/cv', function (req, res) {
+    console.log('cv posten...');
+
+    res.send('ok');
+})
 
 http.createServer(app).listen(app.get('port'), function () {
     console.log("Express server listening on port " + app.get('port'));
