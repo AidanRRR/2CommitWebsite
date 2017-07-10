@@ -1,142 +1,142 @@
 @import 'styles';
 h1 {
-  margin-top: 5%;
-  margin-left: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 .EarthSection {
-  width: 80%;
-  height: 80%;
-  position: absolute;
-  z-index: -2;
-  top: 0;
-  left: 0;
-  opacity: 0.5;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
 }
 
 .contact-form {
-  margin-top: 5%;
+    margin-top: 5%;
 }
 
 .form-row {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .text {
-  color: white;
-  padding: 12px 16px;
-  border: none;
-  outline: none;
-  width: 100%;
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  transition: all .3s ease;
-  border-bottom: solid 2px #F0F0F0;
-  background-color: transparent;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    outline: none;
+    width: 100%;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    border-bottom: solid 2px #F0F0F0;
+    background-color: transparent;
 }
 
 .text:focus {
-  border-color: $commit-highlight;
+    border-color: $commit-highlight;
 }
 
 ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-  color: $commit-white;
+    /* Chrome/Opera/Safari */
+    color: $commit-white;
 }
 
 .btn {
-  margin-top: 25px;
-  padding: 10px 25px;
-  outline: none;
-  position: relative;
-  overflow: hidden;
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  transition: all .3s ease;
-  border: none;
-  background: transparent;
-  border: solid 2px #F0F0F0;
-  text-align: center;
-  color: $commit-white;
+    margin-top: 25px;
+    padding: 10px 25px;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    border: none;
+    background: transparent;
+    border: solid 2px #F0F0F0;
+    text-align: center;
+    color: $commit-white;
 }
 
 .btn:hover {
-  border-color: $commit-highlight;
+    border-color: $commit-highlight;
 }
 
 .btn:after {
-  content: ' ';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-  -moz-transform: translate3d(-50%, -50%, 0);
-  -ms-transform: translate3d(-50%, -50%, 0);
-  -o-transform: translate3d(-50%, -50%, 0);
-  transform: translate3d(-50%, -50%, 0);
-  border-radius: 50%;
-  background: $commit-highlight;
-  -webkit-transition: all .6s ease;
-  -moz-transition: all .6s ease;
-  transition: all .6s ease;
-  width: 0;
-  height: 0;
-  z-index: -1;
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    -ms-transform: translate3d(-50%, -50%, 0);
+    -o-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    border-radius: 50%;
+    background: $commit-highlight;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    transition: all .6s ease;
+    width: 0;
+    height: 0;
+    z-index: -1;
 }
 
 .btn:active:after {
-  width: 200px;
-  height: 200px;
+    width: 200px;
+    height: 200px;
 }
 
 .back {
-  width: 100px;
-  border: solid 2px red;
+    width: 100px;
+    border: solid 2px red;
 }
 
 .scale-up-enter-active {
-  animation: scaleUp .4s;
+    animation: scaleUp .4s;
 }
 
 .scale-up-leave-active {
-  animation: scaleUp .4s reverse;
+    animation: scaleUp .4s reverse;
 }
 
 @keyframes scaleUp {
-  0% {
-    transform: scale3D(1, 1, 1);
-  }
-  50% {
-    transform: scale3D(1.2, 1.2, 1.2);
-  }
-  100% {
-    transform: scale3D(1, 1, 1);
-  }
+    0% {
+        transform: scale3D(1, 1, 1);
+    }
+    50% {
+        transform: scale3D(1.2, 1.2, 1.2);
+    }
+    100% {
+        transform: scale3D(1, 1, 1);
+    }
 }
 
 .scale-down-enter-active {
-  animation: scaleDown .4s;
+    animation: scaleDown .4s;
 }
 
 .scale-down-leave-active {
-  animation: scaleDown .4s reverse;
+    animation: scaleDown .4s reverse;
 }
 
 @keyframes scaleDown {
-  0% {
-    transform: scale3D(1.2, 1.2, 1.2);
-  }
-  50% {
-    transform: scale3D(0.8, 0.8, 0.8);
-  }
-  100% {
-    transform: scale3D(1, 1, 1);
-  }
+    0% {
+        transform: scale3D(1.2, 1.2, 1.2);
+    }
+    50% {
+        transform: scale3D(0.8, 0.8, 0.8);
+    }
+    100% {
+        transform: scale3D(1, 1, 1);
+    }
 }
 
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity .5s
+    transition: opacity .5s
 }
 
 .fade-enter,
@@ -144,5 +144,5 @@ h1 {
 /* .fade-leave-active in <2.1.8 */
 
 {
-  opacity: 0
+    opacity: 0
 }
