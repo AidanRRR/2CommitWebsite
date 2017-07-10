@@ -86,6 +86,8 @@ h1 {
     z-index: -2; }
   .alien-left {
     z-index: 3; }
+  .alien-right {
+    content: url("../../images/dienstverlening-small.png"); }
   .line {
     width: 1px;
     height: 1px;
@@ -122,6 +124,8 @@ h1 {
   .alien-left {
     left: 52%;
     z-index: 3; }
+  .alien-right {
+    content: url("../../images/dienstverlening.png"); }
   .line {
     width: 10px;
     height: 65%;
