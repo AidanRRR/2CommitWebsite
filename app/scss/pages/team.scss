@@ -4,10 +4,11 @@ img {
     display: block;
 }
 
+$steps:47;
 .spaceman {
     width: 275px;
     height: 278px;
-    background: url("../../images/spaceman_walking_sheet.png") left center;
+    background: url("../../images/spaceman_walking_frame_1.png") left center;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -19,27 +20,27 @@ img {
 .spaceman-animate {
     width: 275px;
     height: 278px;
-    background: url("../../images/spaceman_walking_sheet.png") left center;
+    background: url("../../images/spaceman_walking_sheet_one_iteration.png") left center;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
     display: block;
     z-index: 2;
-    animation: sprite .7s steps(47) 1;
+    animation: sprite .7s steps($steps) 1;
 }
 
 .spaceman-animate-b {
     width: 275px;
     height: 278px;
-    background: url("../../images/spaceman_walking_sheet.png") left center;
+    background: url("../../images/spaceman_walking_sheet_one_iteration.png") left center;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
     display: block;
     z-index: 2;
-    animation: sprite-b .7s steps(47) 1;
+    animation: sprite-b .7s steps($steps) 1;
 }
 
 #planet {
@@ -83,12 +84,12 @@ img {
 
 @keyframes sprite {
     100% {
-        background-position: -12925px;
+        background-position: -13200px;
     }
 }
 
 @keyframes sprite-b {
     100% {
-        background-position: -12925px;
+        background-position: -13200px;
     }
 }

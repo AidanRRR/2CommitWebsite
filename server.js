@@ -3,6 +3,7 @@ var bodyParser = require('body-parser');
 var http = require('http');
 var path = require('path');
 var mailSender = require('./mailSender');
+var cvUploader = require('./cvUploader');
 var viewDir = 'app';
 
 var app = express();
@@ -20,9 +21,7 @@ app.post('/api/mail', function (req, res) {
     res.send(mailSender.sendEmail(voornaam, achternaam, email, bericht));
 });
 app.post('/api/cv', function (req, res) {
-    console.log('cv posten...');
-
-    res.send('ok');
+    res.send(cvUploader.sendCv());
 })
 
 http.createServer(app).listen(app.get('port'), function () {
