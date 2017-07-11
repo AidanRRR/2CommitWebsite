@@ -53,6 +53,9 @@ button:hover {
   bottom: 0;
   right: 0; }
 
+.logo-menu {
+  width: 10%; }
+
 .page-content {
   margin-left: 5%; }
 
@@ -75,7 +78,8 @@ button:hover {
   font-family: 'Josefin Slab', serif;
   font-size: 13px;
   letter-spacing: 1px;
-  line-height: 35px; }
+  line-height: 35px;
+  text-align: left; }
 
 .flexNavigation {
   height: 50px;
@@ -199,7 +203,7 @@ button:hover {
 .flexNavigation .menu > ul {
   list-style: none;
   display: block;
-  font-size: 54px;
+  font-size: 1.5rem;
   font-weight: 700; }
 
 .flexNavigation .menu > ul li {
@@ -275,7 +279,14 @@ button:hover {
 .flexNavigation.expanded .menu {
   display: block;
   color: white;
-  float: left;
-  width: 50%;
-  padding: 0 0 0 170px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%); }
+
+@media only screen and (min-width: 800px) {
+  .flexNavigation .menu > ul {
+    list-style: none;
+    display: block;
+    font-size: 54px;
+    font-weight: 700; } }

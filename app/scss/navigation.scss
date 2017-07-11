@@ -6,6 +6,7 @@
     font-size: 13px;
     letter-spacing: 1px;
     line-height: 35px;
+    text-align: left;
 }
 
 .flexNavigation {
@@ -148,7 +149,7 @@
 .flexNavigation .menu>ul {
     list-style: none;
     display: block;
-    font-size: 54px;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -242,8 +243,17 @@
 .flexNavigation.expanded .menu {
     display: block;
     color: white;
-    float: left;
-    width: 50%;
-    padding: 0 0 0 170px;
     box-sizing: border-box;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+@media only screen and (min-width: 800px) {
+    .flexNavigation .menu>ul {
+        list-style: none;
+        display: block;
+        font-size: 54px;
+        font-weight: 700;
+    }
 }
