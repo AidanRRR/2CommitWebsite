@@ -56,11 +56,16 @@ input text {
   left: 0;
   width: 120px; }
 
-.logo-bottom {
-  position: fixed;
-  bottom: 0;
+.logo-right {
+  position: absolute;
+  top: 0;
   right: 0;
   width: 120px; }
+
+.logo-bottom {
+  width: 120px;
+  margin-right: 0px;
+  text-align: right; }
 
 .logo-bottom-left {
   position: fixed;
@@ -93,6 +98,8 @@ input text {
 
 @media only screen and (min-width: 500px) {
   .logo {
+    width: 250px; }
+  .logo-right {
     width: 250px; }
   .logo-bottom {
     width: 250px;
@@ -294,6 +301,7 @@ input text {
 .flexNavigation.collapsed {
   left: 100%;
   margin-left: -50px;
+  top: 0;
   height: 50px;
   width: 50px; }
 
