@@ -91,7 +91,7 @@ input text {
 .hide-overflow {
   overflow: hidden; }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 500px) {
   .logo {
     width: 250px; }
   .logo-bottom {
