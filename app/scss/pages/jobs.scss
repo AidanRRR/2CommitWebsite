@@ -1,7 +1,7 @@
 @import 'styles';
 .jobs {
     background: url(../../images/glow.png) left top no-repeat #02031d;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -10,11 +10,12 @@ h1 {
 }
 
 #cow {
-    width: 60%;
+    width: 50%;
 }
 
 .jobs-tv-col {
-    margin-top: -15%;
+    text-align: center;
+    margin-top: -10%;
 }
 
 .jobs-tv {

@@ -10,23 +10,34 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="css/pages/styles.css">
     <link rel="stylesheet" href="css/pages/jobs.css">
     <link rel="stylesheet" type="text/css" href="css/navigation.css" />
 
     <!-- Scripts -->
     <script src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="js/classie.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".flexNavigation").flexNavigation();
+        })
+    </script>
+
 </head>
 
 <body class="jobs">
     <h1>Jobs</h1>
     <div id="jobs-container">
         <div v-if="!cow" class="page-content row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <h3>Werken bij 2Commit</h3>
                 <p>Een job met de creativiteit & flexibiliteit van een start-up en de stabiliteit van een grote groep?
                     <br /><br />Dat is wat we met 2commit kunnen bieden! Als nieuwe entiteit binnen de Contribute Groep (Cronos),
@@ -37,10 +48,11 @@
                     of onderstaande vacatures u interesseren!
                     <br>
                 </p>
-                <button v-on:click="toggleCV" class="pull-right">Beam me up</button>
+                <br />
+                <button v-on:click="toggleCV" class="pull-right">Bekijk vacatures</button>
             </div>
-            <div class="jobs-tv-col col-md-6">
-                <img class="jobs-tv" src="images/jobs_tv.png" alt="">
+            <div class="jobs-tv-col col-md-8">
+                <img class="jobs-tv" src="images/jobs_tv_wide_team.png" alt="">
             </div>
         </div>
         <div v-if="cow" class="row">
@@ -55,6 +67,28 @@
             </div>
         </div>
     </div>
+
+    <div class="flexNavigation collapsed">
+        <div class="container">
+            <a class="menuButton">
+				<i class="fa fa-bars"></i>
+				<i class="fa fa-close"></i>
+			</a>
+            <div class="menu">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+                    <li><a href="solutions.html">SOLUTIONS</a></li>
+                    <li><a href="commitment.html">COMMITMENT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="jobs.html">JOBS</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- flexNav -->
+    <script src="js/flexNav.js"></script>
 
     <!-- Vue -->
     <script src="https://unpkg.com/vue"></script>
