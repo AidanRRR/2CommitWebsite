@@ -157,7 +157,7 @@
     list-style: none;
     display: block;
     padding: 5px 0;
-    line-height: 60px;
+    line-height: 30px;
     letter-spacing: 5px;
 }
 
@@ -256,5 +256,8 @@
         display: block;
         font-size: 54px;
         font-weight: 700;
+    }
+    .flexNavigation .menu>ul li {
+        line-height: 60px;
     }
 }

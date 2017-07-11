@@ -4,7 +4,8 @@ h1 {
   font-family: 'Josefin Slab', serif;
   font-size: 3.2rem;
   line-height: 60px;
-  letter-spacing: 8px; }
+  letter-spacing: 8px;
+  margin-left: 5%; }
 
 h2 {
   color: white;
@@ -91,7 +92,8 @@ input text {
   width: 120px; }
 
 .logo-menu {
-  width: 10%; }
+  width: 250px;
+  z-index: 5; }
 
 .logo-styleguide {
   width: 20%; }

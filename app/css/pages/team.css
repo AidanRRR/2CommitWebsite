@@ -4,7 +4,8 @@ h1 {
   font-family: 'Josefin Slab', serif;
   font-size: 3.2rem;
   line-height: 60px;
-  letter-spacing: 8px; }
+  letter-spacing: 8px;
+  margin-left: 5%; }
 
 h2 {
   color: white;
@@ -91,7 +92,8 @@ input text {
   width: 120px; }
 
 .logo-menu {
-  width: 10%; }
+  width: 250px;
+  z-index: 5; }
 
 .logo-styleguide {
   width: 20%; }
@@ -188,18 +190,18 @@ img {
 .team-title {
   color: white;
   font-family: 'Josefin Slab', serif;
-  font-size: 5rem; }
+  font-size: 2.2rem; }
 
 .team-role {
   color: #10A2BB;
   font-family: 'Open Sans Condensed', sans-serif;
   font-style: italic;
-  font-size: 2rem; }
+  font-size: 1.5rem; }
 
 .team-text {
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
-  letter-spacing: 2px; }
+  letter-spacing: 1.5px; }
 
 @keyframes sprite {
   100% {
@@ -208,3 +210,9 @@ img {
 @keyframes sprite-b {
   100% {
     background-position: -13200px; } }
+
+@media only screen and (min-width: 800px) {
+  .team-title {
+    font-size: 5rem; }
+  .team-role {
+    font-size: 2rem; } }

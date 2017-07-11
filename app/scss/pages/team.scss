@@ -54,20 +54,20 @@ $steps:48;
 .team-title {
     color: $commit-white;
     font-family: 'Josefin Slab', serif;
-    font-size: 5rem;
+    font-size: 2.2rem;
 }
 
 .team-role {
     color: $commit-highlight;
     font-family: 'Open Sans Condensed', sans-serif;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .team-text {
     color: $commit-white;
     font-family: 'Open Sans Condensed', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 
 @keyframes sprite {
@@ -82,4 +82,11 @@ $steps:48;
     }
 }
 
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 800px) {
+    .team-title {
+        font-size: 5rem;
+    }
+    .team-role {
+        font-size: 2rem;
+    }
+}
