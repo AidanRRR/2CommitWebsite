@@ -15,21 +15,21 @@ $color-primary-flash: #02031D;
 h1 {
     color: $commit-white;
     font-family: 'Josefin Slab', serif;
-    font-size: 5rem;
-    line-height: 80px;
-    letter-spacing: 10px;
+    font-size: 3.2rem;
+    line-height: 60px;
+    letter-spacing: 8px;
 }
 
 h2 {
     color: $commit-white;
     font-family: 'Josefin Slab', serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 h3 {
     color: $commit-white;
     font-family: 'Josefin Slab', serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0px;
 }
 
@@ -67,6 +67,25 @@ button:hover {
     color: #000;
 }
 
+.button {
+    font-family: 'Josefin Slab', serif;
+    line-height: 40px;
+    border: solid 2px #fff;
+    padding: 0 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    color: #fff;
+    transition: cubic-bezier(0.49, 0.11, 0.64, 0.97) 0.5s;
+    cursor: pointer;
+    background-color: transparent;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
 input text {
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -100,6 +119,10 @@ input text {
 
 .logo-menu {
     width: 10%;
+}
+
+.logo-styleguide {
+    width: 20%;
 }
 
 .page-content {
