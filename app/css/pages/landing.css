@@ -127,10 +127,10 @@ input text {
 /* Size specific */
 @media only screen and (min-width: 200px) {
   h1 {
-    font-size: 2rem;
-    line-height: 2rem;
-    letter-spacing: 0.5rem;
-    margin-top: 25%;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.2rem;
+    margin-top: 35%;
     margin-bottom: 0px; }
   p {
     margin-left: 0px;
@@ -145,13 +145,13 @@ input text {
     position: absolute;
     z-index: -1; } }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 350px) {
   h1 {
-    font-size: 3rem;
-    line-height: 4rem;
-    letter-spacing: 0.7rem;
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: 0.2rem;
     margin-left: 10%;
-    margin-top: 10%; }
+    margin-top: 100px; }
   p {
     margin-left: 10%; }
   .window-animated {
@@ -164,12 +164,12 @@ input text {
     position: absolute;
     z-index: -1; } }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 600px) {
   h1 {
-    font-size: 5rem;
-    line-height: 80px;
-    letter-spacing: 15px;
-    margin-top: 12%;
+    font-size: 4rem;
+    line-height: 5rem;
+    letter-spacing: 1rem;
+    margin-top: 25%;
     margin-left: 10%;
     margin-bottom: 0%; }
   p {
@@ -185,7 +185,7 @@ input text {
     z-index: -1;
     animation: sprite 3s steps(64) infinite; } }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1000px) {
   h1 {
     font-size: 7.5rem;
     line-height: 110px;
