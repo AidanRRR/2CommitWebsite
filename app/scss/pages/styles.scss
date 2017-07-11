@@ -15,15 +15,15 @@ $color-primary-flash: #02031D;
 h1 {
     color: $commit-white;
     font-family: 'Josefin Slab', serif;
-    font-size: 7rem;
+    font-size: 5rem;
     line-height: 80px;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
 }
 
 h2 {
     color: $commit-white;
     font-family: 'Josefin Slab', serif;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 h3 {
@@ -142,5 +142,13 @@ input text {
     h1 {
         margin-top: 5%;
         margin-left: 5%;
+        color: $commit-white;
+        font-family: 'Josefin Slab', serif;
+        font-size: 7rem;
+        line-height: 80px;
+        letter-spacing: 15px;
+    }
+    h2 {
+        font-size: 5rem;
     }
 }
