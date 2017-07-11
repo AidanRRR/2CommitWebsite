@@ -8,44 +8,38 @@ $steps:48;
 .spaceman {
     width: 275px;
     height: 278px;
+    margin-left: 15%;
     background: url("../../images/spaceman_walking_frame_1.png") left center;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    display: block;
-    z-index: 2;
+    z-index: -2;
 }
 
 .spaceman-animate {
     width: 275px;
     height: 278px;
+    margin-left: 15%;
     background: url("../../images/spaceman_walking_sheet_one_iteration.png") left center;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    display: block;
-    z-index: 2;
+    z-index: -2;
     animation: sprite .7s steps($steps) 1;
 }
 
 .spaceman-animate-b {
     width: 275px;
     height: 278px;
+    margin-left: 15%;
     background: url("../../images/spaceman_walking_sheet_one_iteration.png") left center;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    display: block;
-    z-index: 2;
+    z-index: -2;
     animation: sprite-b .7s steps($steps) 1;
 }
 
 #planet {
-    z-index: -1;
+    position: absolute;
+    margin-top: -45px;
+    z-index: 5;
     transition: transform 0.3s linear;
+}
+
+.planet-spaceman {
+    margin-top: -5%;
 }
 
 .team-margin {
@@ -54,6 +48,7 @@ $steps:48;
 
 .team-margin-text {
     margin-top: 8%;
+    margin-bottom: 100px;
 }
 
 .team-title {
@@ -86,3 +81,5 @@ $steps:48;
         background-position: -13200px;
     }
 }
+
+@media only screen and (min-width: 600px) {}

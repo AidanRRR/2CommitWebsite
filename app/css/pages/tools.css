@@ -47,6 +47,9 @@ button:hover {
   background-color: #fff;
   color: #000; }
 
+input text {
+  font-family: 'Open Sans Condensed', sans-serif; }
+
 .logo {
   position: absolute;
   top: 0;
@@ -62,7 +65,7 @@ button:hover {
 .logo-bottom-left {
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0;
   width: 120px; }
 
 .logo-menu {
