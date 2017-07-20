@@ -9,10 +9,16 @@ h1 {
 }
 
 .styleguide-divider {
-    min-height: 100px;
+    background-color: $color-primary-1;
+    text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
-    background-color: $color-primary-1;
+    min-height: 100px;
+}
+
+.styleguide-divider-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .divider {
@@ -24,8 +30,28 @@ h1 {
     overflow: hidden;
 }
 
+.logos-styleguide {
+    text-align: center;
+}
+
+.color1 {
+    background-color: $commit-highlight;
+}
+
+.color2 {
+    background-color: $color-primary-2;
+}
+
+.color3 {
+    background-color: $color-primary-0;
+}
+
 @media only screen and (min-width: 50px) {
     .styleguide-section {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .styleguide-divider-section {
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -35,5 +61,9 @@ h1 {
     .styleguide-section {
         margin-left: 30%;
         margin-right: 30%;
+    }
+    .styleguide-divider-section {
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }

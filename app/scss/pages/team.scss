@@ -4,48 +4,42 @@ img {
     display: block;
 }
 
-$steps:47;
+$steps:48;
 .spaceman {
     width: 275px;
     height: 278px;
+    margin-left: 15%;
     background: url("../../images/spaceman_walking_frame_1.png") left center;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    display: block;
-    z-index: 2;
+    z-index: -2;
 }
 
 .spaceman-animate {
     width: 275px;
     height: 278px;
+    margin-left: 15%;
     background: url("../../images/spaceman_walking_sheet_one_iteration.png") left center;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    display: block;
-    z-index: 2;
+    z-index: -2;
     animation: sprite .7s steps($steps) 1;
 }
 
 .spaceman-animate-b {
     width: 275px;
     height: 278px;
+    margin-left: 15%;
     background: url("../../images/spaceman_walking_sheet_one_iteration.png") left center;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    display: block;
-    z-index: 2;
+    z-index: -2;
     animation: sprite-b .7s steps($steps) 1;
 }
 
 #planet {
-    z-index: -1;
+    position: absolute;
+    margin-top: -45px;
+    z-index: 5;
     transition: transform 0.3s linear;
+}
+
+.planet-spaceman {
+    margin-top: -5%;
 }
 
 .team-margin {
@@ -54,32 +48,26 @@ $steps:47;
 
 .team-margin-text {
     margin-top: 8%;
+    margin-bottom: 100px;
 }
 
 .team-title {
     color: $commit-white;
     font-family: 'Josefin Slab', serif;
-    font-size: 5rem;
+    font-size: 2.2rem;
 }
 
 .team-role {
     color: $commit-highlight;
     font-family: 'Open Sans Condensed', sans-serif;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .team-text {
     color: $commit-white;
     font-family: 'Open Sans Condensed', sans-serif;
-    letter-spacing: 2px;
-}
-
-@media only screen and (min-width: 768px) {
-    h1 {
-        margin-top: 5%;
-        margin-left: 5%;
-    }
+    letter-spacing: 1.5px;
 }
 
 @keyframes sprite {
@@ -91,5 +79,14 @@ $steps:47;
 @keyframes sprite-b {
     100% {
         background-position: -13200px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .team-title {
+        font-size: 5rem;
+    }
+    .team-role {
+        font-size: 2rem;
     }
 }

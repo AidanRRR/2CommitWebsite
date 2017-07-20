@@ -1,0 +1,145 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Oplossingen</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/pages/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/hover-effects.css" />
+    <link rel="stylesheet" type="text/css" href="css/pages/solutions.css" />
+    <link rel="stylesheet" type="text/css" href="css/navigation.css" />
+
+    <!-- Scripts -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".flexNavigation").flexNavigation();
+        })
+    </script>
+
+</head>
+
+<body class="main">
+    <h1>Oplossingen</h1>
+
+    <div class="flexNavigation collapsed">
+        <div class="container">
+            <a class="menuButton">
+				<i class = "fa fa-bars"></i>
+				<i class = "fa fa-close"></i>
+			</a>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="commitment.html">COMMITMENT</a></li>
+                    <li><a href="oplossingen.html">OPLOSSINGEN</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+                    <li><a href="jobs.html">JOBS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="solution-container">
+        <div v-if="choose" class="row">
+            <div v-on:click="toggleServices(0)" class="left col-md-6">
+                <h2 class="left-text">Technische<br />oplossingen</h2>
+                <img class="aliens alien-left" src="images/technische-oplossingen.png" alt="">
+            </div>
+            <img class="line" src="images/solutions-line.png" alt="">
+            <div v-on:click="toggleSolutions(0)" class="right col-md-6">
+                <h2 class="right-text">Dienstverlening</h2>
+                <img class="aliens alien-right" src="images/dienstverlening.png" alt="">
+            </div>
+        </div>
+        <button class="center-block" v-if="!choose" v-on:click="back">Terug</button>
+        <div v-if="!choose" class="row solutions">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
+                <div v-if="services[0]==true" id="services">
+                    <h3 v-on:click="toggleServices(1)" class="lh-eff1 c1-blue">.NET Consultancy Services</h3>
+                    <p v-if="services[1]">Onze consultants helpen samen met onze klanten kwalitatieve oplossingen te ontwikkelen.
+                        <br /><br /> Ze werken volgens de coding guidelines en marktstandaarden.<br />Een persoonlijk opleidingsplan
+                        helpt de consultants bij te blijven met de nieuwste standaarden, waardoor ze samen met klanten kunnen
+                        werken aan toekomstgerichte oplossingen.
+                        <br /><br />Daarnaast is het voor 2commit ook zeer belangrijk de juiste consultant bij de juiste
+                        klant te plaatsen. Tevreden klanten en consultants zorgen voor het ideale evenwicht!
+                    </p>
+                    <br />
+                    <h3 v-on:click="toggleServices(2)" class="lh-eff1 c1-blue">Development Services</h3>
+                    <p v-if="services[2]">Aan de hand van best practices en onze ervaringen, nemen we jouw omgeving onder de loupe en bekijken
+                        we samen wat de verwachtingen zijn en hoe we dit kunnen optimaliseren.</p>
+                    <br />
+                    <h3 v-on:click="toggleServices(3)" class="lh-eff1 c1-blue">Process Services</h3>
+                    <p v-if="services[3]">Kwalitatieve software bouwen is niet alleen afhankelijk van technische capaciteiten, maar ook van het
+                        applicatieproces.
+                        <br /><br />Samen met jou bekijken we hoe het ontwikkelingsproces kan geoptimaliseerd worden aan
+                        de hand van ALM (Application Lifecycle Management) principes.<br /><br />We begeleiden jullie in
+                        het praktisch uitwerken van deze principes aan de hand van de Microsoft Tools.</p>
+                </div>
+                <div v-if="solutions[0]==true" id="solutions">
+                    <h3 v-on:click="toggleSolutions(1)" class="lh-eff1 c1-blue">Domain Driven</h3>
+                    <p v-if="solutions[1]">Wij geloven dat software er in de eerste plaats is om bedrijven te ondersteunen. Daarom vinden we het
+                        belangrijk dat de domeinen waarvoor de software ontwikkeld wordt centraal staan in onze oplossingen.
+                    </p>
+                    <br />
+                    <h3 v-on:click="toggleSolutions(2)" class="lh-eff1 c1-blue">Evolutionary Architecture</h3>
+                    <p v-if="solutions[2]">De problemen die we in de nabije of verre toekomst moeten oplossen zullen drastisch verschillen van degene
+                        die we vandaag kennen. In plaats van de uitdagingen proberen te voorspellen, ontwerpen we liever
+                        systemen die mee kunnen evolueren met het domein om zo meer toekomstgerichte oplossingen te bouwen.
+                    </p>
+                    <br />
+                    <h3 v-on:click="toggleSolutions(3)" class="lh-eff1 c1-blue">MicroServices</h3>
+                    <p v-if="solutions[3]">Wij zien software als een een aantal service componenten met een specifieke focus die samenwerken om
+                        een probleemdomein te ondersteunen. Deze insteek gaat verder dan enkel het technische aspect.<br
+                        /><br />Ook op gebied van release management, team samenstelling en communicatie kunnen wij helpen
+                        meedenken om tot solide oplossingen te komen.</p>
+                    <br />
+                    <h3 v-on:click="toggleSolutions(4)" class="lh-eff1 c1-blue">Azure Platform as a service</h3>
+                    <p v-if="solutions[4]">Microsoft biedt met het Azure cloud platform naast infrastructuur services ook een hele set aan platform
+                        services aan. Dit zijn specifieke technische componenten die ingeplugd kunnen worden in de oplossingen
+                        die je bouwt, zonder de nadelen van de infrastructurele opzet en onderhoud te moeten dragen.<br /><br
+                        />Het huidige aanbod omvat elementen zoals managed webapplicaties, gegevensopslag, caching, search,
+                        IOT, machine learning,… en Microsoft blijft erin investeren om hun platform services continue te
+                        verbeteren en uit te breiden.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+    </div>
+
+    <!-- Vue -->
+    <script src="https://unpkg.com/vue"></script>
+
+    <!-- flexNav -->
+    <script src="js/flexNav.js"></script>
+
+    <!-- Page script -->
+    <script src="js/pages/solutions.js"></script>
+
+    <!--build:js js/main.min.js -->
+    <script src="js/classie.js"></script>
+    <!-- endbuild -->
+
+</body>
+
+</html>

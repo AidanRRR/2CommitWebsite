@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 26px;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-transition: background 0.2s, color 0.2s;
+  -moz-transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.2s; }
+
+a:hover {
+  color: #3f7c2d; }
+
+.categories {
+  margin: 0 auto;
+  float: left;
+  text-align: center;
+  width: 100%; }
+
+.categories a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  color: #535353; }
+
+.half-circle-menu {
+  position: absolute;
+  background: url("https://res.cloudinary.com/dm5b7b3f5/image/upload/v1431002024/circlemenu/menu_bg.png") center top;
+  width: 500px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding-bottom: 2px; }
+
+.center-circle {
+  top: 250px;
+  margin: 0 auto;
+  width: 300px;
+  height: 150px;
+  line-height: 50px;
+  text-align: center;
+  /*background: #444;*/
+  list-style-type: none;
+  position: relative; }
+
+.little-circle {
+  background: white;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  border-radius: 50%; }
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven {
+  -webkit-transition: background 0.2s;
+  -moz-transition: background 0.2s;
+  transition: background 0.2s; }
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover,
+.six:hover,
+.seven:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05); }
+
+.one {
+  background: url("https://res.cloudinary.com/dm5b7b3f5/image/upload/v1431002023/circlemenu/icon02.png"); }
+
+.two {
+  background: url("https://res.cloudinary.com/dm5b7b3f5/image/upload/v1431002023/circlemenu/icon04.png"); }
+
+.three {
+  background: url("https://res.cloudinary.com/dm5b7b3f5/image/upload/v1431002023/circlemenu/icon05.png"); }
+
+.four {
+  background: url("https://res.cloudinary.com/dm5b7b3f5/image/upload/v1431002023/circlemenu/icon03.png"); }
+
+.five {
+  background: url("https://res.cloudinary.com/dm5b7b3f5/image/upload/v1431002024/circlemenu/icon06.png"); }
+
+.six {
+  background: url("https://res.cloudinary.com/dm5b7b3f5/image/upload/v1431002024/circlemenu/icon07.png"); }
+
+.seven {
+  background: url("https://res.cloudinary.com/dm5b7b3f5/image/upload/v1431002023/circlemenu/icon01.png"); }
+
+.one:hover {
+  background: url("https://res.cloudinary.com/dm5b7b3f5/image/upload/v1431002023/circlemenu/icon02hover.png"); }
+
+.two:hover {
+  background: url("https://res.cloudinary.com/dm5b7b3f5/image/upload/v1431002023/circlemenu/icon04hover.png"); }
+
+.three:hover {
+  background: url("https://res.cloudinary.com/dm5b7b3f5/image/upload/v1431002023/circlemenu/icon05hover.png"); }
+
+.four:hover {
+  background: url("https://res.cloudinary.com/dm5b7b3f5/image/upload/v1431002023/circlemenu/icon03hover.png"); }
+
+.five:hover {
+  background: url("https://res.cloudinary.com/dm5b7b3f5/image/upload/v1431002023/circlemenu/icon06hover.png"); }
+
+.six:hover {
+  background: url("https://res.cloudinary.com/dm5b7b3f5/image/upload/v1431002024/circlemenu/icon07hover.png"); }
+
+.seven:hover {
+  background: url("https://res.cloudinary.com/dm5b7b3f5/image/upload/v1431002023/circlemenu/icon01hover.png"); }
