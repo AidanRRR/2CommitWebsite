@@ -2,8 +2,188 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16fe9e77-f5f8-45db-ba03-cac189666ebf" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/CV/CV - Aidan Rypens 2Commit.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Colors/kleurhulp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Fonts/Josefin Slab/JosefinSlab-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Fonts/Josefin Slab/JosefinSlab-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Fonts/Josefin Slab/JosefinSlab-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Fonts/Josefin Slab/JosefinSlab-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Fonts/Josefin Slab/JosefinSlab-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Fonts/Josefin Slab/JosefinSlab-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Fonts/Josefin Slab/JosefinSlab-SemiBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Fonts/Josefin Slab/JosefinSlab-SemiBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Fonts/Josefin Slab/JosefinSlab-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Fonts/Josefin Slab/JosefinSlab-ThinItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Fonts/Josefin Slab/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Fonts/Open Sans Condensed/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Fonts/Open Sans Condensed/OpenSansCondensed-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Fonts/Open Sans Condensed/OpenSansCondensed-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Fonts/Open Sans Condensed/OpenSansCondensed-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Iconen/2commit_icon_cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Iconen/2commit_icon_consultancy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Iconen/2commit_icon_development.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Iconen/2commit_icon_process.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Logo's/Logo-02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Logo's/Logo-03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Logo's/Logo-04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Logo's/Logo-05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Logo's/Logo-07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Logo's/Logo-08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Logo's/Logo-09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Logo's/New Logo-06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/2Commit Offerte.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/2Commit Offerte Template.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/2commit_icon_consultancy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/2commit_icon_development.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/2commit_icon_process.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/IT Services Proposal.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/IT Services Proposal.indd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/TEMPLATE OFFERTE.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/blue/IT Services Proposal.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/blue/IT Services Proposal.idml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/blue/IT Services Proposal.indd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/blue/IT Services Proposal.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/blue/IT Services Proposal.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/brown/IT Services Proposal.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/brown/IT Services Proposal.idml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/brown/IT Services Proposal.indd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/brown/IT Services Proposal.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/brown/IT Services Proposal.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/green/IT Services Proposal.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/green/IT Services Proposal.idml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/green/IT Services Proposal.indd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/green/IT Services Proposal.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/green/IT Services Proposal.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/grey/IT Services Proposal.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/grey/IT Services Proposal.idml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/grey/IT Services Proposal.indd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/grey/IT Services Proposal.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/grey/IT Services Proposal.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/info.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/orange/IT Services Proposal.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/orange/IT Services Proposal.idml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/orange/IT Services Proposal.indd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/orange/IT Services Proposal.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/orange/IT Services Proposal.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/pink/IT Services Proposal.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/pink/IT Services Proposal.idml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/pink/IT Services Proposal.indd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/pink/IT Services Proposal.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/pink/IT Services Proposal.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/purple/IT Services Proposal.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/purple/IT Services Proposal.idml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/purple/IT Services Proposal.indd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/purple/IT Services Proposal.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/purple/IT Services Proposal.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/red/IT Services Proposal.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/red/IT Services Proposal.idml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/red/IT Services Proposal.indd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/red/IT Services Proposal.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/red/IT Services Proposal.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/teal/IT Services Proposal.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/teal/IT Services Proposal.idml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/teal/IT Services Proposal.indd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/teal/IT Services Proposal.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/teal/IT Services Proposal.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/user guide.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/yellow/IT Services Proposal.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/yellow/IT Services Proposal.idml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/yellow/IT Services Proposal.indd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/yellow/IT Services Proposal.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Offerte/Legacy/mainfile/yellow/IT Services Proposal.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Presentatie/2Commit Presentation.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Presentatie/Azure Search.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Planet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/SpaceMan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10001.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10002.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10003.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10004.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10005.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10006.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10007.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10008.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10009.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10010.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10011.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10012.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10013.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10014.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10015.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10016.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10017.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10019.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10020.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10021.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10022.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10023.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10024.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10025.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10026.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10027.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10028.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10029.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10030.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10031.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10032.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10033.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10034.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10035.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10036.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10037.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10038.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10039.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10041.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10042.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10043.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10044.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10045.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10046.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Spaceman-walking-frames/Spaceman Walking_10047.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Styling Website.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/UFO with cow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/UFO without cow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals.ai" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals_export/Abstract Sea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals_export/Artboard 1 copy 4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals_export/Azure Search.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals_export/Azure Search/Abstract Sea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals_export/Azure Search/PNG/Azure Search-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals_export/Azure Search/PNG/Azure Search-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals_export/Azure Search/PNG/Azure Search-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals_export/Azure Search/PNG/Azure Search-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals_export/Azure Search/PNG/Azure Search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals_export/Brain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals_export/Main Face.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals_export/Planet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals_export/Samples/Artboard 1 copy 5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals_export/Samples/Artboard 1 copy 6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals_export/Samples/Artboard 1 copy 7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals_export/Samples/Artboard 1 copy 8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Visuals_export/Samples/Artboard 1 copy 9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/Windows .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/dienstverlening.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/jobs_schets.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/jobs_tv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/jobs_tv_wide.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/planet_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/satellite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/solutions-line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/solutions_page.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/solutions_schets_21_final.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/space-window.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/spaceman-layered.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/spaceman-layered.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/spaceman_sprite_sheet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/spaceman_walking_sequence.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/spaceman_walking_sheet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/stars_animation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/stars_final.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/working_files/Website Illustrations/technische-oplossingen.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/pages/landing.scss" afterPath="$PROJECT_DIR$/app/scss/pages/landing.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +202,7 @@
         <entry file="file://$PROJECT_DIR$/app/scss/pages/landing.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="170" column="28" lean-forward="false" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="28" />
+              <caret line="170" column="27" lean-forward="false" selection-start-line="170" selection-start-column="27" selection-end-line="170" selection-end-column="27" />
               <folding>
                 <element signature="e#50#251#0" expanded="false" />
                 <element signature="e#268#292#0" expanded="false" />
@@ -34,7 +214,7 @@
                 <element signature="e#1804#2251#0" expanded="false" />
                 <element signature="e#2295#2795#0" expanded="false" />
                 <element signature="e#2840#3370#0" expanded="false" />
-                <element signature="e#3948#4025#0" expanded="false" />
+                <element signature="e#3947#4024#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -192,16 +372,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503066284362</updated>
-      <workItem from="1503066285702" duration="3373000" />
+      <workItem from="1503066285702" duration="3674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3373000" />
+    <option name="totallyTimeSpent" value="3674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28588662" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -211,7 +390,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35050392" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35050392" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -353,7 +532,7 @@
     <entry file="file://$PROJECT_DIR$/app/scss/pages/landing.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="170" column="28" lean-forward="false" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="28" />
+          <caret line="170" column="27" lean-forward="false" selection-start-line="170" selection-start-column="27" selection-end-line="170" selection-end-column="27" />
           <folding>
             <element signature="e#50#251#0" expanded="false" />
             <element signature="e#268#292#0" expanded="false" />
@@ -365,7 +544,7 @@
             <element signature="e#1804#2251#0" expanded="false" />
             <element signature="e#2295#2795#0" expanded="false" />
             <element signature="e#2840#3370#0" expanded="false" />
-            <element signature="e#3948#4025#0" expanded="false" />
+            <element signature="e#3947#4024#0" expanded="false" />
           </folding>
         </state>
       </provider>
