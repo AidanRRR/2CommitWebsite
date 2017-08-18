@@ -8,7 +8,7 @@
     }
     img {
         position: relative;
-        top: 5;
+        top: 5%;
         margin-left: 5px;
         transition: .65s;
     }
@@ -21,73 +21,118 @@
     cursor: pointer;
 }
 
+h1 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.2rem;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+p {
+    margin-left: 10px;
+    font-size: 0.8rem;
+}
+.window-animated {
+    width: 100%;
+    height: 100%;
+    background: url("../../images/space_window_xsmall.png") no-repeat;
+    left: 100px;
+    top: -20px;
+    position: absolute;
+    z-index: -2;
+    opacity: 0.8;
+}
 
 /* Size specific */
-
-@media only screen and (min-width: 10px) {
-    h1 {
-        font-size: 1.5rem;
-        line-height: 1.5rem;
-        letter-spacing: 0.2rem;
-        margin-top: 100px;
-        margin-bottom: 0px;
-    }
-    p {
-        margin-left: 5%;
-        font-size: 0.8rem;
-    }
-    .window-animated {
-        width: 100%;
-        height: 100%;
-        background: url("../../images/space_window_xsmall.png") no-repeat;
-        left: 100px;
-        top: -20px;
-        position: absolute;
-        z-index: -2;
-    }
-}
 
 @media only screen and (min-width: 350px) {
     h1 {
         font-size: 2rem;
         line-height: 2rem;
         letter-spacing: 0.2rem;
-        margin-left: 10%;
-        margin-top: 100px;
+        margin-left: 25px;
+        margin-top: 120px;
     }
     p {
-        margin-left: 10%;
+        margin-left: 25px;
     }
     .window-animated {
         width: 100%;
         height: 100%;
         background: url("../../images/space_window_small.png") no-repeat;
-        left: 50%;
-        top: -5%;
+        left: 170px;
+        top: -40px;
         opacity: 0.8;
         position: absolute;
         z-index: -1;
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
+    h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        letter-spacing: 0.3rem;
+        margin-top: 150px;
+        margin-left: 25px;
+        margin-bottom: 0px;
+    }
+    p {
+        margin-left: 25px;
+    }
+    .window-animated {
+        width: 100%;
+        height: 100%;
+        background: url("../../images/space_window_small.png") no-repeat;
+        left: 270px;
+        top: 0;
+        opacity: 1;
+        position: absolute;
+        z-index: -1;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+        letter-spacing: 1rem;
+        margin-top: 150px;
+        margin-left: 70px;
+    }
+    p {
+        margin-left: 70px;
+    }
+    .window-animated {
+        width: 100%;
+        height: 100%;
+        background: url("../../images/space_window_small.png") no-repeat;
+        left: 400px;
+        top: 0;
+        opacity: 1;
+        position: absolute;
+        z-index: -1;
+    }
+}
+
+@media only screen and (min-width: 900px) {
     h1 {
         font-size: 4rem;
         line-height: 5rem;
         letter-spacing: 1rem;
-        margin-top: 25%;
-        margin-left: 10%;
-        margin-bottom: 0%;
+        margin-top: 200px;
+        margin-left: 100px;
     }
     p {
-        margin-left: 10%;
+        margin-left: 100px;
     }
     .window-animated {
         width: 430px;
         height: 580px;
         background: url("../../images/stars_final.png") left center;
-        left: 35%;
-        top: -10%;
+        left: 450px;
+        top: -100px;
         opacity: 1;
         position: absolute;
         z-index: -1;
@@ -95,24 +140,49 @@
     }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
     h1 {
         font-size: 7.5rem;
         line-height: 110px;
         letter-spacing: 17px;
-        margin-top: 12%;
-        margin-left: 15%;
-        margin-bottom: 0%;
+        margin-top: 200px;
+        margin-left: 120px;
+        margin-bottom: 0px;
     }
     p {
-        margin-left: 15%;
+        margin-left: 120px;
     }
     .window-animated {
         width: 430px;
         height: 580px;
         background: url("../../images/stars_final.png") left center;
-        left: 55%;
-        top: -5%;
+        left: 800px;
+        top: -50px;
+        opacity: 1;
+        position: absolute;
+        z-index: -1;
+        animation: sprite 3s steps(64) infinite;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    h1 {
+        font-size: 8.5rem;
+        line-height: 150px;
+        letter-spacing: 20px;
+        margin-top: 200px;
+        margin-left: 120px;
+        margin-bottom: 0px;
+    }
+    p {
+        margin-left: 120px;
+    }
+    .window-animated {
+        width: 430px;
+        height: 580px;
+        background: url("../../images/stars_final.png") left center;
+        left: 1050px;
+        top: 20px;
         opacity: 1;
         position: absolute;
         z-index: -1;
