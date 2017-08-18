@@ -98,6 +98,12 @@ input text {
 .logo-styleguide {
   width: 20%; }
 
+.linkedin {
+  width: 35px;
+  position: absolute;
+  bottom: 25;
+  left: 25; }
+
 .page-content {
   margin-left: 5%;
   margin-top: 5%; }
@@ -117,6 +123,19 @@ input text {
 
 .hide-overflow {
   overflow: hidden; }
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+section::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 80%; }
 
 @media only screen and (min-width: 500px) {
   .logo {

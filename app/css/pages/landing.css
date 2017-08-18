@@ -98,6 +98,12 @@ input text {
 .logo-styleguide {
   width: 20%; }
 
+.linkedin {
+  width: 35px;
+  position: absolute;
+  bottom: 25;
+  left: 25; }
+
 .page-content {
   margin-left: 5%;
   margin-top: 5%; }
@@ -117,6 +123,19 @@ input text {
 
 .hide-overflow {
   overflow: hidden; }
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+section::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 80%; }
 
 @media only screen and (min-width: 500px) {
   .logo {
@@ -169,15 +188,14 @@ input text {
     margin-top: 35%;
     margin-bottom: 0px; }
   p {
-    margin-left: 0px;
+    margin-left: 10%;
     font-size: 0.8rem; }
   .window-animated {
     width: 100%;
     height: 100%;
     background: url("../../images/space_window_xsmall.png") no-repeat;
     left: 40%;
-    top: 5%;
-    opacity: 0.8;
+    top: -5%;
     position: absolute;
     z-index: -1; } }
 
@@ -195,7 +213,7 @@ input text {
     height: 100%;
     background: url("../../images/space_window_small.png") no-repeat;
     left: 50%;
-    top: 10%;
+    top: -5%;
     opacity: 0.8;
     position: absolute;
     z-index: -1; } }
@@ -214,8 +232,8 @@ input text {
     width: 430px;
     height: 580px;
     background: url("../../images/stars_final.png") left center;
-    left: 50%;
-    top: 15%;
+    left: 35%;
+    top: -10%;
     opacity: 1;
     position: absolute;
     z-index: -1;
@@ -236,7 +254,7 @@ input text {
     height: 580px;
     background: url("../../images/stars_final.png") left center;
     left: 55%;
-    top: 15%;
+    top: -5%;
     opacity: 1;
     position: absolute;
     z-index: -1;
