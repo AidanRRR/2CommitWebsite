@@ -1,10 +1,10 @@
 @import 'styles';
-
-/* Background */
-
 .landing-sub {
-    p {
+    a {
         display: inline-block;
+        margin-left: 10px;
+        font-size: 0.8rem;
+        text-decoration: none;
     }
     img {
         position: relative;
@@ -29,10 +29,12 @@ h1 {
     margin-left: 10px;
     margin-bottom: 0px;
 }
+
 p {
     margin-left: 10px;
     font-size: 0.8rem;
 }
+
 .window-animated {
     width: 100%;
     height: 100%;
@@ -43,6 +45,7 @@ p {
     z-index: -2;
     opacity: 0.8;
 }
+
 
 /* Size specific */
 
@@ -55,6 +58,9 @@ p {
         margin-top: 120px;
     }
     p {
+        margin-left: 25px;
+    }
+    a {
         margin-left: 25px;
     }
     .window-animated {
@@ -156,7 +162,7 @@ p {
         width: 430px;
         height: 580px;
         background: url("../../images/stars_final.png") left center;
-        left: 800px;
+        left: 850px;
         top: -50px;
         opacity: 1;
         position: absolute;
@@ -194,4 +200,75 @@ p {
     100% {
         background-position: -27520px;
     }
+}
+
+.landing-navigation-block {
+    text-align: right;
+    max-width: 370px;
+    margin: 44px auto 56px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.landing-navigation-block .img {}
+
+.landing-navigation-block .txt {
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+}
+
+.landing-navigation-block .txt:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    /*width: 100%;
+    height: 240px;
+    right: 0;
+    bottom: 0;
+    border-top: 100px solid transparent;
+    border-right: 150px solid red;
+    border-left: 150px solid transparent;
+    border-bottom: 100px solid yellow;*/
+}
+
+.landing-navigation-block .txt h3 {
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0px 20px 8px 0px;
+}
+
+.landing-navigation-block .txt h4 {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.landing-navigation-block:before {
+    content: '';
+    position: absolute;
+    background: $color-primary-1;
+    width: 150%;
+    height: 70%;
+    bottom: -40%;
+    right: -59%;
+    transform: rotate(-33deg);
+}
+
+.landing-navigation-block hr {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-top: 1px solid $commit-white;
+    z-index: 5;
+    width: 250px;
+    margin: 0;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.landing-navigation-block:hover hr {
+    border-color: $color-primary-flash;
 }

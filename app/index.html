@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans+Condensed:300" rel="stylesheet">
 
     <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/simple-grid.css">
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/pages/styles.css">
     <link rel="stylesheet" href="css/pages/landing.css">
@@ -32,11 +33,10 @@
 <body class="main">
     <img class="logo" src="images/2commit logo/logo-horizontal.png" alt="">
 
-    <section id="landing">
-        <h1>Creating <br /> commitment<br />in the digital<br />universe.</h1>
-
-        <div onclick="window.location.replace('oplossingen.html');" class="landing-sub mouse-pointer">
-            <p>Bekijk de oplossingen</p>
+    <section id="landing" class="landing">
+        <h1>Creating <br />commitment<br />in the digital<br />universe.</h1>
+        <div class="landing-sub">
+            <a href="#landing-navigation">Ga naar onder</a>
             <img src="images/flow-arrow.png" alt="">
         </div>
 
@@ -61,6 +61,50 @@
             </div>
         </div>
     </div>
+
+    <section id="landing-navigation" class="landing-navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="landing-navigation-block">
+                        <div class="img">
+                            <img src="http://template.helloxpart.com/monty/monty/assets/images/architecture/project-1.jpg" alt="">
+                            <hr>
+                        </div>
+                        <div class="txt">
+                            <h3>Onze<br />Oplossingen</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="landing-navigation-block">
+                        <div class="img">
+                            <img src="http://template.helloxpart.com/monty/monty/assets/images/architecture/project-1.jpg" alt="">
+                            <hr>
+                        </div>
+                        <div class="txt">
+                            <h3>Waarom<br />2Commit?</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="landing-navigation-block">
+                        <div class="img">
+                            <img src="http://template.helloxpart.com/monty/monty/assets/images/architecture/project-1.jpg" alt="">
+                            <hr>
+                        </div>
+                        <div class="txt">
+                            <h3>Onze<br />Commitment</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Index -->
+    <script src="js/pages/index.js"></script>
+
 
     <script src="js/flexNav.js"></script>
 </body>
