@@ -154,7 +154,8 @@ section {
     font-size: 5rem; } }
 
 #cow {
-  width: 50%; }
+  margin-top: -10px;
+  width: 100%; }
 
 .jobs-tv-col {
   text-align: center; }
