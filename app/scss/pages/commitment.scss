@@ -1,66 +1,48 @@
 @import 'styles';
-.commitment-helmet {
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-    background: url(../../images/helmet-image.png) right top no-repeat;
-    background-size: cover;
-}
-
-.commitment-stars {
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-    background: url(../../images/commitment-stars.png) right top no-repeat;
-    background-size: cover;
-}
-
-.commitment-splashes {
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-    background: url(../../images/commitment-splashes.png) right top no-repeat;
-    background-size: cover;
-}
-
-.commitment-pic {
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-}
-
 .scene {
-    left: 0;
-    top: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
     overflow: hidden;
 }
 
 .commitment-img {
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
+    width: 350px;
 }
 
-.helmet {
-    z-index: -1;
+.glowbg {
+    z-index: 5;
 }
 
-.splashes {
-    z-index: -3;
+.starsbg {
+    z-index: 6;
 }
 
-.stars {
-    z-index: 0;
+.spaceship {
+    z-index: 8;
+}
+
+.spaceman {
+    z-index: 7
+}
+
+@media only screen and (min-width: 500px) {
+    .commitment-img {
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .scene {
+        margin-top: -50px;
+    }
+    .commitment-img {
+        width: 800px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .scene {
+        margin-top: -175px;
+    }
+    .commitment-img {
+        width: 1200px;
+    }
 }
