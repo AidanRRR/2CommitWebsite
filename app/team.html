@@ -37,21 +37,26 @@
     <h1>Team</h1>
 
     <div class="team-margin row">
-        <div class="col-md-2">
-        </div>
-        <div id="team-info" class="team-margin-text col-md-4">
-            <div class="team-title">{{members[team_index].name}} <span class="team-role">{{members[team_index].title}}</span></div>
-            <div class="team-text">{{members[team_index].quote}}</div>
-            <br />
-            <button class="btn" onclick="rotateRight()">Volgende</button>
-        </div>
-        <div class="planet-spaceman col-md-4">
+        <div id="team-info" class="team-margin-text col-md-6">
             <div class="row">
-                <div id="spaceman" class="spaceman"></div>
+                <div class="col-sm-2">
+                    <img class="arrow" src="images/arrow-left.png">
+                </div>
+                <div class="col-sm-6">
+                    <div class="team-title">{{members[team_index].name}} <span class="team-role">{{members[team_index].title}}</span></div>
+                    <div class="team-text">{{members[team_index].quote}}</div>
+                    <br />
+                    <button class="btn Volgende" onclick="rotateRight()">Volgende</button>
+                </div>
+                <div class="col-sm-1">
+                    <img class="arrow" src="images/arrow-right.png">
+                </div>
             </div>
-            <div class="row">
-                <img id="planet" src="images/planet.png" alt="">
-            </div>
+        </div>
+        <div class="planet-spaceman col-md-6">
+            <div id="spaceman" class="spaceman"></div>
+            <img id="planet" src="images/planet.png" alt="">
+            <img class="avatar" src="images/avatars/richard.png">
         </div>
     </div>
 
@@ -91,12 +96,3 @@
 </body>
 
 </html>
-
-<!--
-            <div class="col-md-2">
-                <button onclick="rotateRight()">Volgende</button>
-            </div>
-            <div class="col-md-2">
-                <button onclick="rotateRight()">Volgende</button>
-            </div>
-            -->

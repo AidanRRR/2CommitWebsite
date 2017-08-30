@@ -212,6 +212,16 @@ img {
   font-family: 'Open Sans Condensed', sans-serif;
   letter-spacing: 1.5px; }
 
+.arrow {
+  width: 40px;
+  visibility: hidden; }
+
+.avatar {
+  width: 200px;
+  position: absolute;
+  margin-top: -45px;
+  z-index: 5; }
+
 @keyframes sprite {
   100% {
     background-position: -13200px; } }
@@ -225,3 +235,9 @@ img {
     font-size: 5rem; }
   .team-role {
     font-size: 2rem; } }
+
+@media only screen and (min-width: 992px) {
+  .Volgende {
+    visibility: hidden; }
+  .arrow {
+    visibility: visible; } }
