@@ -36,6 +36,7 @@
     "morgan": "^1.8.2",
     "node-requirejs": "^0.1.1",
     "sendgrid": "^5.1.2",
+    "twitter": "^1.7.1",
     "vue-clipboard": "0.0.1"
   },
   "engines": {
