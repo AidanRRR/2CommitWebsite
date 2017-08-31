@@ -177,12 +177,12 @@ section {
 
 @media only screen and (min-width: 768px) {
   .scene {
-    margin-top: -50px; }
+    margin-top: -75px; }
   .commitment-img {
     width: 800px; } }
 
 @media only screen and (min-width: 1200px) {
   .scene {
-    margin-top: -175px; }
+    margin-top: -300px; }
   .commitment-img {
     width: 1200px; } }
