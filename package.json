@@ -29,6 +29,8 @@
     "run-sequence": "^1.2.2"
   },
   "dependencies": {
+    "async": "^2.5.0",
+    "asyncawait": "^1.0.6",
     "azure-storage": "^2.2.1",
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
@@ -37,7 +39,8 @@
     "node-requirejs": "^0.1.1",
     "sendgrid": "^5.1.2",
     "twitter": "^1.7.1",
-    "vue-clipboard": "0.0.1"
+    "vue-clipboard": "0.0.1",
+    "wait.for": "^0.6.6"
   },
   "engines": {
     "node": "6.10.0"
