@@ -88,17 +88,24 @@
                 </a>
             </div>
         </div>
-        <!-- <a class="twitter-timeline" data-width="600" data-height="600" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/2_commit">Tweets by 2_commit</a>
-        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-
-        <div class="center twitter-box">
-            <img class="twitter-tv" src="images/jobs_tv.png">
-            <a class="twitter-timeline" data-width="600" data-height="600" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/2_commit">Tweets by 2_commit</a>
-            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div id="twitter">
+            <div class="row">
+                <div class="col-12">
+                    <div class="twitter-box center">
+                        <!-- <img class="twitter-tv" src="images/jobs_tv.png"> -->
+                        <!-- <button v-on:click="getTweets">getTweets</button> -->
+                        <div id="twitter-box" class="tweets">
+                            <div id="tweets-text-container" class="tweets-text-container">
+                                <!-- <span class="tweet-text">Tweets:</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <div class="flexNavigation collapsed">
+    <!-- <div class="flexNavigation collapsed">
         <div class="container">
             <a class="menuButton">
                         <i class = "fa fa-bars"></i>
@@ -115,11 +122,7 @@
                 </ul>
             </div>
         </div>
-    </div>
-
-    <section id="twitter">
-
-    </section>
+    </div> -->
 
     <!-- Index -->
     <script src="js/pages/index.js"></script>

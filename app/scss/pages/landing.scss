@@ -4,23 +4,40 @@
 }
 
 .twitter-box {
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    position: absolute;
-    z-index: 0;
+    // margin-left: auto;
+    // margin-right: auto;
+    // left: 0;
+    // right: 0;
+    // position: absolute;
+    // z-index: 0;
 }
 
 .twitter-tv {
-    pointer-events: none;
+    width: 40%;
+    pointer-events: none; // margin-left: auto;
+    // margin-right: auto;
+    // left: 0;
+    // right: 0;
+    // position: absolute;
+}
+
+.tweets {
+    background: url('../../images/jobs_tv_wide.png') no-repeat center;
+    background-size: 1100px;
+    width: 100%;
+    height: 1100px;
+}
+
+.tweets-text-container {
+    width: 400px;
+    padding-top: 450px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    top: -350;
-    left: 0;
-    right: 0;
-    position: absolute;
-    z-index: 1;
+}
+
+.tweet-text {
+    color: white;
 }
 
 .landing-sub {
@@ -38,6 +55,14 @@
 
 .mouse-pointer {
     cursor: pointer;
+}
+
+.tweet-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
