@@ -106,6 +106,18 @@ $steps:48;
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .avatar {
+        width: 50%;
+        max-width: 200px;
+        z-index: 5;
+        float: left;
+    }
+    .team-margin {
+        margin-left: 5%;
+    }
+}
+
 @media only screen and (min-width: 992px) {
     .Volgende {
         visibility: hidden;

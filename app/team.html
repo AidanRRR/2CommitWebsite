@@ -27,13 +27,13 @@
 
 </head>
 
-<body class="main">
+<body onload="Loop()" class="main">
     <h1>Team</h1>
     <div class="team-margin row">
-        <div id="team-info" class="team-margin-text col-md-4">
+        <div id="team-info" class="team-margin-text col-md-6">
             <div class="row">
                 <div class="col-sm-12">
-                    <img id="avatar" class="avatar" src="images/avatars/richard.png">
+                    <img id="avatar" class="avatar" :src="members[team_index].url">
                 </div>
             </div>
             <br />
