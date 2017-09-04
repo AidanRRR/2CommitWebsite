@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Solutions</title>
+    <title>Team</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -25,57 +25,34 @@
     <script src="js/modernizr.custom.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $(".flexNavigation").flexNavigation();
-        })
-    </script>
-
 </head>
 
 <body class="main">
     <h1>Team</h1>
-
     <div class="team-margin row">
-        <div id="team-info" class="team-margin-text col-md-6">
+        <div id="team-info" class="team-margin-text col-md-4">
             <div class="row">
-                <div class="col-sm-2">
-                    <img class="arrow" src="images/arrow-left.png">
+                <div class="col-sm-12">
+                    <img id="avatar" class="avatar" src="images/avatars/richard.png">
                 </div>
-                <div class="col-sm-6">
+            </div>
+            <br />
+            <br />
+            <div class="row">
+                <div class="col-sm-8">
+                    <!-- <img class="arrow" src="images/arrow-left.png"> -->
                     <div class="team-title">{{members[team_index].name}} <span class="team-role">{{members[team_index].title}}</span></div>
                     <div class="team-text">{{members[team_index].quote}}</div>
                     <br />
                     <button class="btn Volgende" onclick="rotateRight()">Volgende</button>
-                </div>
-                <div class="col-sm-1">
-                    <img class="arrow" src="images/arrow-right.png">
+                    <!-- <img class="arrow" src="images/arrow-right.png"> -->
                 </div>
             </div>
         </div>
         <div class="planet-spaceman col-md-6">
             <div id="spaceman" class="spaceman"></div>
             <img id="planet" src="images/planet.png" alt="">
-            <img class="avatar" src="images/avatars/richard.png">
-        </div>
-    </div>
-
-    <div class="flexNavigation collapsed">
-        <div class="container">
-            <a class="menuButton">
-				<i class="fa fa-bars"></i>
-				<i class="fa fa-close"></i>
-			</a>
-            <div class="menu">
-                <ul>
-                    <li><a href="/">HOME</a></li>
-                    <li><a href="team.html">TEAM</a></li>
-                    <li><a href="oplossingen.html">OPLOSSINGEN</a></li>
-                    <li><a href="commitment.html">COMMITMENT</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                    <li><a href="jobs.html">JOBS</a></li>
-                </ul>
-            </div>
+            <!-- <img id="avatar-on-planet" src="images/avatars/richard.png"> -->
         </div>
     </div>
 
@@ -89,10 +66,6 @@
     <!--build:js js/main.min.js -->
     <script src="js/classie.js"></script>
     <!-- endbuild -->
-
-    <!-- flexNav -->
-    <script src="js/flexNav.js"></script>
-
 </body>
 
 </html>

@@ -153,36 +153,5 @@ section {
   h2 {
     font-size: 5rem; } }
 
-.scene {
-  overflow: hidden; }
-
-.commitment-img {
-  width: 350px; }
-
-.glowbg {
-  z-index: 5; }
-
-.starsbg {
-  z-index: 6; }
-
-.spaceship {
-  z-index: 8; }
-
-.spaceman {
-  z-index: 7; }
-
-@media only screen and (min-width: 500px) {
-  .commitment-img {
-    width: 500px; } }
-
-@media only screen and (min-width: 768px) {
-  .scene {
-    margin-top: -75px; }
-  .commitment-img {
-    width: 800px; } }
-
-@media only screen and (min-width: 1200px) {
-  .scene {
-    margin-top: -300px; }
-  .commitment-img {
-    width: 1200px; } }
+.why-2commit {
+  width: 100%; }

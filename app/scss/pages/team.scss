@@ -38,6 +38,12 @@ $steps:48;
     transition: transform 0.3s linear;
 }
 
+#avatar-on-planet {
+    position: absolute;
+    width: 175px;
+    z-index: 6;
+}
+
 .planet-spaceman {
     margin-top: -5%;
 }
@@ -47,7 +53,7 @@ $steps:48;
 }
 
 .team-margin-text {
-    margin-top: 8%;
+    margin-top: 5%;
     margin-bottom: 100px;
 }
 
@@ -75,11 +81,8 @@ $steps:48;
     visibility: hidden;
 }
 
-.avatar {
-    width: 200px;
-    position: absolute;
-    margin-top: -45px;
-    z-index: 5;
+.planet-spaceman {
+    display: none;
 }
 
 @keyframes sprite {
@@ -94,12 +97,12 @@ $steps:48;
     }
 }
 
-@media only screen and (min-width: 800px) {
-    .team-title {
-        font-size: 5rem;
-    }
-    .team-role {
-        font-size: 2rem;
+@media only screen and (min-width: 100px) {
+    .avatar {
+        width: 50%;
+        max-width: 200px;
+        z-index: 5;
+        float: left;
     }
 }
 
@@ -109,5 +112,14 @@ $steps:48;
     }
     .arrow {
         visibility: visible;
+    }
+    .team-title {
+        font-size: 5rem;
+    }
+    .team-role {
+        font-size: 2rem;
+    }
+    .planet-spaceman {
+        display: block;
     }
 }

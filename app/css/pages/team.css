@@ -5,7 +5,7 @@ h1 {
   font-size: 3.2rem;
   line-height: 60px;
   letter-spacing: 8px;
-  /*margin-left: 5%;*/ }
+  margin-left: 5%; }
 
 h2 {
   color: white;
@@ -186,6 +186,11 @@ img {
   z-index: 5;
   transition: transform 0.3s linear; }
 
+#avatar-on-planet {
+  position: absolute;
+  width: 175px;
+  z-index: 6; }
+
 .planet-spaceman {
   margin-top: -5%; }
 
@@ -193,7 +198,7 @@ img {
   margin-top: 5%; }
 
 .team-margin-text {
-  margin-top: 8%;
+  margin-top: 5%;
   margin-bottom: 100px; }
 
 .team-title {
@@ -216,11 +221,8 @@ img {
   width: 40px;
   visibility: hidden; }
 
-.avatar {
-  width: 200px;
-  position: absolute;
-  margin-top: -45px;
-  z-index: 5; }
+.planet-spaceman {
+  display: none; }
 
 @keyframes sprite {
   100% {
@@ -230,14 +232,21 @@ img {
   100% {
     background-position: -13200px; } }
 
-@media only screen and (min-width: 800px) {
-  .team-title {
-    font-size: 5rem; }
-  .team-role {
-    font-size: 2rem; } }
+@media only screen and (min-width: 100px) {
+  .avatar {
+    width: 50%;
+    max-width: 200px;
+    z-index: 5;
+    float: left; } }
 
 @media only screen and (min-width: 992px) {
   .Volgende {
     visibility: hidden; }
   .arrow {
-    visibility: visible; } }
+    visibility: visible; }
+  .team-title {
+    font-size: 5rem; }
+  .team-role {
+    font-size: 2rem; }
+  .planet-spaceman {
+    display: block; } }
