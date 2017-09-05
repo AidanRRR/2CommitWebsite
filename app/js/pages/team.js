@@ -1,6 +1,6 @@
 var rotation = 0;
 const rotationStep = 40;
-const loopSpeed = 5000;
+const loopSpeed = 3000;
 
 function rotateLeft() {
     var from = this.rotation;
