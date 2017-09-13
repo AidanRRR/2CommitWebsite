@@ -24,7 +24,7 @@ a:focus {
 .iamenu ul {
     position: fixed;
     top: 0;
-    z-index: -1;
+    z-index: -100;
     margin: 0;
     padding-top: 10%;
     padding-left: 0;
@@ -44,7 +44,7 @@ a:focus {
 
 .iamenu ul::before {
     position: absolute;
-    z-index: -1;
+    z-index: -100;
     opacity: 1
 }
 
@@ -53,7 +53,7 @@ a:focus {
     top: 0;
     left: 0;
     display: block;
-    z-index: 1;
+    z-index: 100;
     margin: 0 auto;
     padding: 0;
     height: 0;
@@ -69,7 +69,7 @@ a:focus {
 
 .iamenu ul li ul::before {
     position: absolute;
-    z-index: -1;
+    z-index: -100;
     opacity: 0
 }
 
@@ -510,7 +510,7 @@ a:focus {
 
 @-webkit-keyframes iamenu-gravity-show {
     0% {
-        z-index: -1;
+        z-index: -100;
         width: 0;
         height: 0;
         opacity: 0;
@@ -523,7 +523,7 @@ a:focus {
         transform: scaleY(0)
     }
     1% {
-        z-index: -1;
+        z-index: -100;
         top: -2000px;
         width: 100%;
         height: 100%;
@@ -534,7 +534,7 @@ a:focus {
         transform: scaleY(1)
     }
     100% {
-        z-index: 1;
+        z-index: 100;
         top: 0;
         width: 100%;
         height: 100%;
@@ -548,7 +548,7 @@ a:focus {
 
 @keyframes iamenu-gravity-show {
     0% {
-        z-index: -1;
+        z-index: -100;
         width: 0;
         height: 0;
         opacity: 0;
@@ -561,7 +561,7 @@ a:focus {
         transform: scaleY(0)
     }
     1% {
-        z-index: -1;
+        z-index: -100;
         top: -2000px;
         width: 100%;
         height: 100%;
@@ -572,7 +572,7 @@ a:focus {
         transform: scaleY(1)
     }
     100% {
-        z-index: 1;
+        z-index: 100;
         top: 0;
         width: 100%;
         height: 100%;
@@ -591,7 +591,7 @@ a:focus {
 
 @-webkit-keyframes iamenu-gravity-hide {
     0% {
-        z-index: 1;
+        z-index: 100;
         top: 0;
         width: 100%;
         height: 100%;
@@ -610,7 +610,7 @@ a:focus {
         transform: scaleY(1)
     }
     100% {
-        z-index: -1;
+        z-index: -100;
         top: 0;
         width: 0;
         height: 0;
@@ -624,7 +624,7 @@ a:focus {
 
 @keyframes iamenu-gravity-hide {
     0% {
-        z-index: 1;
+        z-index: 100;
         top: 0;
         width: 100%;
         height: 100%;
@@ -643,7 +643,7 @@ a:focus {
         transform: scaleY(1)
     }
     100% {
-        z-index: -1;
+        z-index: -100;
         top: 0;
         width: 0;
         height: 0;
@@ -662,7 +662,7 @@ a:focus {
 
 @-webkit-keyframes iamenu-shift-right-show {
     0% {
-        z-index: -1;
+        z-index: -100;
         width: 0;
         height: 0;
         opacity: 0;
@@ -675,7 +675,7 @@ a:focus {
         transform: scaleY(0)
     }
     1% {
-        z-index: -1;
+        z-index: -100;
         left: -4000px;
         width: 100%;
         height: 100%;
@@ -686,7 +686,7 @@ a:focus {
         transform: scaleY(1)
     }
     100% {
-        z-index: 1;
+        z-index: 100;
         left: 0;
         width: 100%;
         height: 100%;
@@ -700,7 +700,7 @@ a:focus {
 
 @keyframes iamenu-shift-right-show {
     0% {
-        z-index: -1;
+        z-index: -100;
         left: -4000px;
         width: 0;
         height: 0;
@@ -714,7 +714,7 @@ a:focus {
         transform: scaleY(0)
     }
     1% {
-        z-index: -1;
+        z-index: -100;
         left: -4000px;
         width: 100%;
         height: 100%;
@@ -725,7 +725,7 @@ a:focus {
         transform: scaleY(1)
     }
     100% {
-        z-index: 1;
+        z-index: 100;
         left: 0;
         width: 100%;
         height: 100%;
@@ -744,7 +744,7 @@ a:focus {
 
 @-webkit-keyframes iamenu-shift-right-hide {
     0% {
-        z-index: 1;
+        z-index: 100;
         left: 0;
         width: 100%;
         height: 100%;
@@ -755,7 +755,7 @@ a:focus {
         transform: scaleY(1)
     }
     99% {
-        z-index: -1;
+        z-index: -100;
         left: -4000px;
         width: 100%;
         height: 100%;
@@ -766,7 +766,7 @@ a:focus {
         transform: scaleY(1)
     }
     100% {
-        z-index: -1;
+        z-index: -100;
         left: 0;
         width: 0;
         height: 0;
@@ -783,7 +783,7 @@ a:focus {
 
 @keyframes iamenu-shift-right-hide {
     0% {
-        z-index: 1;
+        z-index: 100;
         left: 0;
         width: 100%;
         height: 100%;
@@ -794,7 +794,7 @@ a:focus {
         transform: scaleY(1)
     }
     99% {
-        z-index: -1;
+        z-index: -100;
         left: -4000px;
         width: 100%;
         height: 100%;
@@ -805,7 +805,7 @@ a:focus {
         transform: scaleY(1)
     }
     100% {
-        z-index: -1;
+        z-index: -100;
         left: 0;
         width: 0;
         height: 0;
@@ -827,7 +827,7 @@ a:focus {
 
 @-webkit-keyframes iamenu-shift-left-show {
     0% {
-        z-index: -1;
+        z-index: -100;
         width: 0;
         height: 0;
         opacity: 0;
@@ -840,7 +840,7 @@ a:focus {
         transform: scaleY(0)
     }
     1% {
-        z-index: -1;
+        z-index: -100;
         right: -4000px;
         width: 100%;
         height: 100%;
@@ -851,7 +851,7 @@ a:focus {
         transform: scaleY(1)
     }
     100% {
-        z-index: 1;
+        z-index: 100;
         right: 0;
         width: 100%;
         height: 100%;
@@ -865,7 +865,7 @@ a:focus {
 
 @keyframes iamenu-shift-left-show {
     0% {
-        z-index: -1;
+        z-index: -100;
         right: -4000px;
         width: 0;
         height: 0;
@@ -879,7 +879,7 @@ a:focus {
         transform: scaleY(0)
     }
     1% {
-        z-index: -1;
+        z-index: -100;
         right: -4000px;
         width: 100%;
         height: 100%;
@@ -890,7 +890,7 @@ a:focus {
         transform: scaleY(1)
     }
     100% {
-        z-index: 1;
+        z-index: 100;
         right: 0;
         width: 100%;
         height: 100%;
@@ -909,7 +909,7 @@ a:focus {
 
 @-webkit-keyframes iamenu-shift-left-hide {
     0% {
-        z-index: 1;
+        z-index: 100;
         right: 0;
         width: 100%;
         height: 100%;
@@ -920,7 +920,7 @@ a:focus {
         transform: scaleY(1)
     }
     99% {
-        z-index: -1;
+        z-index: -100;
         right: -4000px;
         width: 100%;
         height: 100%;
@@ -931,7 +931,7 @@ a:focus {
         transform: scaleY(1)
     }
     100% {
-        z-index: -1;
+        z-index: -100;
         right: 0;
         width: 0;
         height: 0;
@@ -948,7 +948,7 @@ a:focus {
 
 @keyframes iamenu-shift-left-hide {
     0% {
-        z-index: 1;
+        z-index: 100;
         right: 0;
         width: 100%;
         height: 100%;
@@ -959,7 +959,7 @@ a:focus {
         transform: scaleY(1)
     }
     99% {
-        z-index: -1;
+        z-index: -100;
         right: -4000px;
         width: 100%;
         height: 100%;
@@ -970,7 +970,7 @@ a:focus {
         transform: scaleY(1)
     }
     100% {
-        z-index: -1;
+        z-index: -100;
         right: 0;
         width: 0;
         height: 0;
@@ -992,7 +992,7 @@ a:focus {
 
 @-webkit-keyframes iamenu-fade-show {
     0% {
-        z-index: -1;
+        z-index: -100;
         width: 0;
         height: 0;
         opacity: 0;
@@ -1002,7 +1002,7 @@ a:focus {
         transform: scaleY(0)
     }
     1% {
-        z-index: -1;
+        z-index: -100;
         width: 100%;
         height: 100%;
         opacity: 0;
@@ -1012,7 +1012,7 @@ a:focus {
         transform: scaleY(1)
     }
     100% {
-        z-index: 1;
+        z-index: 100;
         width: 100%;
         height: 100%;
         opacity: 1;
@@ -1025,7 +1025,7 @@ a:focus {
 
 @keyframes iamenu-fade-show {
     0% {
-        z-index: -1;
+        z-index: -100;
         width: 0;
         height: 0;
         opacity: 0;
@@ -1035,7 +1035,7 @@ a:focus {
         transform: scaleY(0)
     }
     1% {
-        z-index: -1;
+        z-index: -100;
         width: 100%;
         height: 100%;
         opacity: 0;
@@ -1045,7 +1045,7 @@ a:focus {
         transform: scaleY(1)
     }
     100% {
-        z-index: 1;
+        z-index: 100;
         width: 100%;
         height: 100%;
         opacity: 1;
@@ -1063,7 +1063,7 @@ a:focus {
 
 @-webkit-keyframes iamenu-fade-hide {
     0% {
-        z-index: 1;
+        z-index: 100;
         width: 100%;
         height: 100%;
         opacity: 1;
@@ -1073,7 +1073,7 @@ a:focus {
         transform: scaleY(1)
     }
     99% {
-        z-index: -1;
+        z-index: -100;
         width: 100%;
         height: 100%;
         opacity: 0;
@@ -1093,7 +1093,7 @@ a:focus {
 
 @keyframes iamenu-fade-hide {
     0% {
-        z-index: 1;
+        z-index: 100;
         width: 100%;
         height: 100%;
         opacity: 1;
@@ -1103,7 +1103,7 @@ a:focus {
         transform: scaleY(1)
     }
     99% {
-        z-index: -1;
+        z-index: -100;
         width: 100%;
         height: 100%;
         opacity: 0;

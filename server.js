@@ -17,7 +17,7 @@ var twitterClient = new Twitter({
 });
 var params = {
     screen_name: '2_commit',
-    count: 1,
+    count: 10,
     trim_user: true
 };
 
