@@ -89,7 +89,7 @@ a:focus {
 }
 
 .iamenu ul li a:hover {
-    color: #00D7FE
+    color: #10A2BB
 }
 
 .iamenu ul li.iamenu-sub a:after {
@@ -97,7 +97,7 @@ a:focus {
     position: relative;
     top: 8px;
     left: 10px;
-    color: #00D7FE
+    color: #10A2BB
 }
 
 .iamenu .iamenu-btn span:after,
@@ -155,7 +155,7 @@ a:focus {
     right: auto;
     width: 30px;
     height: 6px;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: white;
     cursor: pointer
 }
 
@@ -294,7 +294,7 @@ a:focus {
 }
 
 .iamenu.iamenu-birds ul li a:hover {
-    color: #00D7FE
+    color: #10A2BB
 }
 
 .iamenu.iamenu-birds .iamenu-btn.iamenu-btn-close span:after,
@@ -343,12 +343,12 @@ a:focus {
 }
 
 .iamenu.iamenu-photography ul li a:hover {
-    color: #00D7FE
+    color: #10A2BB
 }
 
 .iamenu.iamenu-photography .iamenu-btn.iamenu-btn-close span:after,
 .iamenu.iamenu-photography .iamenu-btn.iamenu-btn-close span:before {
-    background-color: rgba(0, 0, 0, 1)
+    background-color: white;
 }
 
 .iamenu-restaurant ul::before {
@@ -364,7 +364,8 @@ a:focus {
 }
 
 .iamenu-typography ul::before {
-    background: url(../img/type_@2X.png)
+    background: url(../images/menubg2.png);
+    background-size: cover;
 }
 
 .iamenu-typography.iamenu-opacity ul::before {
@@ -404,12 +405,12 @@ a:focus {
 }
 
 .iamenu.iamenu-grey ul li a:hover {
-    color: #00D7FE
+    color: #10A2BB
 }
 
 .iamenu.iamenu-grey .iamenu-btn.iamenu-btn-close span:after,
 .iamenu.iamenu-grey .iamenu-btn.iamenu-btn-close span:before {
-    background-color: rgba(0, 0, 0, 1)
+    background-color: white;
 }
 
 .iamenu-blue ul::before {
@@ -469,12 +470,12 @@ a:focus {
 }
 
 .iamenu.iamenu-white ul li a:hover {
-    color: #00D7FE
+    color: #10A2BB
 }
 
 .iamenu.iamenu-white .iamenu-btn.iamenu-btn-close span:after,
 .iamenu.iamenu-white .iamenu-btn.iamenu-btn-close span:before {
-    background-color: rgba(0, 0, 0, 1)
+    background-color: white;
 }
 
 .iamenu-sand ul::before {
@@ -494,12 +495,12 @@ a:focus {
 }
 
 .iamenu.iamenu-sand ul li a:hover {
-    color: #00D7FE
+    color: #10A2BB
 }
 
 .iamenu.iamenu-sand .iamenu-btn.iamenu-btn-close span:after,
 .iamenu.iamenu-sand .iamenu-btn.iamenu-btn-close span:before {
-    background-color: rgba(0, 0, 0, 1)
+    background-color: white;
 }
 
 .iamenu-gravity ul.iamenu-show {

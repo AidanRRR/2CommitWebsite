@@ -4667,3 +4667,13 @@ $(function () {
         }, 500)
     })
 });
+
+$(function () {
+    new IncodedAniMenu('#menu', {
+        theme: 'typography',
+        font: 'Josefin Slab',
+        animation: 'fade',
+        opacity: false,
+        button_position: 'right'
+    });
+});

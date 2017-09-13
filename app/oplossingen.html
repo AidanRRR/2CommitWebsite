@@ -19,42 +19,29 @@
     <link rel="stylesheet" href="css/pages/styles.css">
     <link rel="stylesheet" type="text/css" href="css/hover-effects.css" />
     <link rel="stylesheet" type="text/css" href="css/pages/solutions.css" />
-    <link rel="stylesheet" type="text/css" href="css/navigation.css" />
+
+    <!-- Navigation -->
+    <link rel="stylesheet" href="css/navigation-quick.css">
 
     <!-- Scripts -->
     <script src="js/jquery-2.2.4.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $(".flexNavigation").flexNavigation();
-        })
-    </script>
 
 </head>
 
 <body class="main">
     <h1>Oplossingen</h1>
 
-    <div class="flexNavigation collapsed">
-        <div class="container">
-            <a class="menuButton">
-				<i class = "fa fa-bars"></i>
-				<i class = "fa fa-close"></i>
-			</a>
-            <div class="menu">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="commitment.html">COMMITMENT</a></li>
-                    <li><a href="oplossingen.html">OPLOSSINGEN</a></li>
-                    <li><a href="team.html">TEAM</a></li>
-                    <li><a href="jobs.html">JOBS</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-        </div>
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">Landing</a></li>
+            <li><a href="oplossingen.html">Oplossingen</a></li>
+            <li><a href="commitment.html">Commitment</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+        </ul>
     </div>
-
 
     <div id="solution-container">
         <div v-if="choose" class="row">
@@ -130,15 +117,15 @@
     <!-- Vue -->
     <script src="https://unpkg.com/vue"></script>
 
-    <!-- flexNav -->
-    <script src="js/flexNav.js"></script>
-
     <!-- Page script -->
     <script src="js/pages/solutions.js"></script>
 
     <!--build:js js/main.min.js -->
     <script src="js/classie.js"></script>
     <!-- endbuild -->
+
+    <!-- Navigation -->
+    <script src="js/navigation-quick.js"></script>
 
 </body>
 
