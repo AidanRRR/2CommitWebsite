@@ -1,6 +1,6 @@
 var rotation = 0;
 const rotationStep = 40;
-const loopSpeed = 3000;
+const loopSpeed = 6000;
 
 function rotateLeft() {
     var from = this.rotation;
@@ -79,24 +79,24 @@ var vm = new Vue({
             {
                 "name": "Stijn",
                 "title": ".NET Architect",
-                "quote": "Flying is learning how to throw yourself at the ground and miss",
+                "quote": "Flying is learning how to throw yourself at the ground and miss.",
                 "url": "images/avatars/stijn.png"
             },
             {
                 "name": "Aidan",
-                "title": "",
-                "quote": "",
+                "title": ".NET Consultant",
+                "quote": "À vous l'honneur et les fleurs",
                 "url": "images/avatars/aidan.png"
             },
             {
                 "name": "Richard",
-                "title": "",
+                "title": ".NET Consultant",
                 "quote": "",
                 "url": "images/avatars/richard.png"
             },
             {
                 "name": "Kristof",
-                "title": "",
+                "title": ".NET Consultant",
                 "quote": "",
                 "url": "images/avatars/kristof.png"
             },
@@ -108,7 +108,7 @@ var vm = new Vue({
             },
             {
                 "name": "Tanguy",
-                "title": "",
+                "title": ".NET Consultant",
                 "quote": "",
                 "url": "images/avatars/tanguy.png"
             }
