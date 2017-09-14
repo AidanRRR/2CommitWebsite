@@ -171,8 +171,50 @@ section {
 .spaceman {
   z-index: 7; }
 
+.tweets {
+  visibility: hidden; }
+
+.tweets-loading {
+  visibility: hidden; }
+
+.tweets-text-container {
+  visibility: hidden;
+  text-align: center; }
+
 .tweet-text {
   color: white; }
+
+@media only screen and (min-width: 200px) {
+  .tweets {
+    visibility: visible;
+    background: url("../../images/jobs_tv_wide.png") no-repeat center;
+    margin-top: -90px;
+    width: 500px;
+    background-size: 500px; }
+  .tweets-loading {
+    visibility: visible;
+    background: url("../../images/jobs_tv_wide_loading.png") no-repeat center;
+    margin-top: -80px;
+    width: 500px;
+    background-size: 500px; }
+  .tweets-text-container {
+    visibility: visible;
+    width: 200px;
+    height: 100%;
+    padding-top: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .tweet-img {
+    visibility: hidden;
+    width: 270px;
+    height: auto;
+    max-height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .tweets-text {
+    visibility: visible; } }
 
 @media only screen and (min-width: 500px) {
   .commitment-img {
@@ -184,7 +226,34 @@ section {
   .commitment-img {
     width: 800px; } }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 780px) {
+  .tweets {
+    background: url("../../images/jobs_tv_wide.png") no-repeat center;
+    margin-top: -150px;
+    width: 500px;
+    background-size: 500px; }
+  .tweets-loading {
+    background: url("../../images/jobs_tv_wide_loading.png") no-repeat center;
+    margin-top: -150px;
+    width: 500px;
+    background-size: 500px; }
+  .tweets-text-container {
+    width: 200px;
+    height: 100%;
+    padding-top: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .tweet-img {
+    visibility: hidden;
+    width: 270px;
+    height: auto;
+    max-height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media only screen and (min-width: 900px) {
   .scene {
     margin-top: -300px; }
   .commitment-img {
@@ -194,10 +263,52 @@ section {
     margin-top: -150px;
     width: 800px;
     background-size: 800px; }
+  .tweets-loading {
+    background: url("../../images/jobs_tv_wide_loading.png") no-repeat center;
+    margin-top: -150px;
+    width: 800px;
+    background-size: 800px; }
   .tweets-text-container {
-    width: 350px;
+    width: 330px;
     height: 100%;
-    padding-top: 320px;
+    padding-top: 270px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .tweet-img {
+    visibility: visible;
+    width: 270px;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media only screen and (min-width: 1500px) {
+  .scene {
+    margin-top: -300px; }
+  .commitment-img {
+    width: 1200px; }
+  .tweets {
+    background: url("../../images/jobs_tv_wide.png") no-repeat center;
+    margin-top: -150px;
+    width: 800px;
+    background-size: 800px; }
+  .tweets-loading {
+    background: url("../../images/jobs_tv_wide_loading.png") no-repeat center;
+    margin-top: -150px;
+    width: 800px;
+    background-size: 800px; }
+  .tweets-text-container {
+    width: 330px;
+    height: 100%;
+    padding-top: 305px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .tweet-img {
+    visibility: visible;
+    width: 270px;
+    overflow: hidden;
+    display: block;
     margin-left: auto;
     margin-right: auto; } }
