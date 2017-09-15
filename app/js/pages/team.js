@@ -97,19 +97,19 @@ var vm = new Vue({
             {
                 "name": "Kristof",
                 "title": ".NET Consultant",
-                "quote": "",
+                "quote": "Go further than the eye can see",
                 "url": "images/avatars/kristof.png"
             },
             {
                 "name": "Bianca",
                 "title": "",
-                "quote": "",
+                "quote": "There's no value in keeping things for yourself. By helping people around you grow, everybody wins.",
                 "url": "images/avatars/bianca.png"
             },
             {
                 "name": "Tanguy",
                 "title": ".NET Consultant",
-                "quote": "",
+                "quote": "Ik heb het wel nodig",
                 "url": "images/avatars/tanguy.png"
             }
         ]

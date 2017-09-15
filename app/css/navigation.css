@@ -1,0 +1,376 @@
+/* Text Layout */
+h1 {
+  color: white;
+  font-family: 'Josefin Slab', serif;
+  font-size: 3.2rem;
+  line-height: 60px;
+  letter-spacing: 8px;
+  margin-left: 5%; }
+
+h2 {
+  color: white;
+  font-family: 'Josefin Slab', serif;
+  font-size: 2.5rem; }
+
+h3 {
+  color: white;
+  font-family: 'Josefin Slab', serif;
+  font-size: 2.5rem; }
+
+h4 {
+  color: #5f5f87;
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.3rem;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  line-height: 50%; }
+
+p {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 2px; }
+
+button {
+  font-family: 'Josefin Slab', serif;
+  line-height: 40px;
+  border: solid 2px #fff;
+  padding: 0 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  color: #fff;
+  transition: cubic-bezier(0.49, 0.11, 0.64, 0.97) 0.5s;
+  cursor: pointer;
+  background-color: transparent;
+  margin: 10px; }
+
+button:hover {
+  background-color: #fff;
+  color: #000; }
+
+.button {
+  font-family: 'Josefin Slab', serif;
+  line-height: 40px;
+  border: solid 2px #fff;
+  padding: 0 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  color: #fff;
+  transition: cubic-bezier(0.49, 0.11, 0.64, 0.97) 0.5s;
+  cursor: pointer;
+  background-color: transparent;
+  margin: 10px; }
+
+.button:hover {
+  background-color: #fff;
+  color: #000; }
+
+input text {
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px; }
+
+.logo-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 120px; }
+
+.logo-bottom {
+  width: 120px;
+  text-align: right; }
+
+.logo-bottom-left {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 120px; }
+
+.logo-menu {
+  width: 250px;
+  z-index: 5; }
+
+.logo-styleguide {
+  width: 20%; }
+
+.linkedin {
+  width: 35px;
+  position: absolute;
+  bottom: 25px;
+  left: 25px; }
+
+.page-content {
+  margin-left: 5%;
+  margin-top: 5%; }
+
+.no-padding {
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
+
+.highlight {
+  color: #10A2BB; }
+
+.main {
+  background: url(../../images/glow.png) left top no-repeat #02031d; }
+
+.align-center {
+  text-align: center; }
+
+.hide-overflow {
+  overflow: hidden; }
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+@media only screen and (min-width: 500px) {
+  .logo {
+    width: 200px; }
+  .logo-right {
+    width: 200px; }
+  .logo-bottom {
+    width: 200px;
+    margin-bottom: 15px;
+    margin-right: 15px; }
+  .logo-bottom-left {
+    width: 250px;
+    margin-bottom: 15px;
+    margin-left: 15px; } }
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    margin-top: 70px;
+    margin-left: 70px;
+    color: white;
+    font-family: 'Josefin Slab', serif;
+    font-size: 7rem;
+    line-height: 80px;
+    letter-spacing: 15px; }
+  h2 {
+    font-size: 5rem; } }
+
+.flexNavigation,
+.flexNavigation input,
+.flexNavigation textarea {
+  font-family: 'Josefin Slab', serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 35px;
+  text-align: left; }
+
+.flexNavigation {
+  height: 50px;
+  width: 50px;
+  transition: 0.7s cubic-bezier(0.49, 0.11, 0.64, 0.97) 0.3s;
+  overflow: hidden;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  right: 0; }
+
+.flexNavigation .container {
+  width: 3000px;
+  height: 3000px;
+  background-color: #131450;
+  transition: 0.5s cubic-bezier(0.49, 0.11, 0.64, 0.97) 0.5s;
+  overflow: hidden; }
+
+.flexNavigation .logoWrapper {
+  visibility: hidden;
+  height: 100%;
+  width: 100%; }
+
+.flexNavigation .container .logoWrapper,
+.flexNavigation .container .menu {
+  opacity: 0;
+  transition: opacity cubic-bezier(0.49, 0.11, 0.64, 0.97) 1s; }
+
+.flexNavigation.expanded .container .logoWrapper,
+.flexNavigation.expanded .container .menu {
+  opacity: 1; }
+
+.flexNavigation .logoWrapper .menuButton {
+  width: 50px;
+  cursor: pointer;
+  position: relative;
+  height: 50px;
+  display: block;
+  text-align: center; }
+
+.flexNavigation .logo {
+  height: 120px;
+  display: block;
+  margin: auto;
+  padding: 0 0 20px;
+  margin-top: 0; }
+
+.flexNavigation .menuButton i {
+  font-size: 20px;
+  color: #fff;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  display: block;
+  width: 50px;
+  transition: .5s;
+  top: 0; }
+
+.flexNavigation .menu:after {
+  /*
+    content: "";
+    background-color: #fff;
+    width: 1px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 300px;
+    transition: 4s;
+    */ }
+
+.flexNavigation.expanded .menu:after {
+  margin-top: -30px; }
+
+.flexNavigation.expanded .menuButton i.fa-bars {
+  top: -500px; }
+
+.flexNavigation .rightContainer {
+  float: right;
+  width: 50%;
+  padding: 10px 100px 0 180px;
+  box-sizing: border-box;
+  margin-top: 54px; }
+
+.flexNavigation a.menuButton {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  z-index: 5; }
+
+.flexNavigation .rightContainer .heading {
+  color: #f7ff21;
+  font-size: 31px;
+  margin-top: 0; }
+
+.flexNavigation .rightContainer .text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 25px; }
+
+.flexNavigation .rightContainer .boxButton {
+  margin-top: 50px; }
+
+.flexNavigation .rightContainer .boxButton a {
+  line-height: 40px;
+  border: solid 2px #fff;
+  padding: 0 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  color: #fff;
+  transition: cubic-bezier(0.49, 0.11, 0.64, 0.97) 0.5s;
+  cursor: pointer; }
+
+.flexNavigation .rightContainer .boxButton a:hover {
+  background-color: #fff;
+  color: #000; }
+
+.flexNavigation .menu > ul {
+  list-style: none;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700; }
+
+.flexNavigation .menu > ul li {
+  list-style: none;
+  display: block;
+  padding: 5px 0;
+  line-height: 30px;
+  letter-spacing: 5px; }
+
+.flexNavigation .menu li > ul {
+  transition: .5s .2s;
+  overflow: hidden;
+  opacity: 0;
+  padding-left: 10px; }
+
+.flexNavigation .menu li > ul > li {
+  margin-top: -45px;
+  transition: .5s .2s; }
+
+.flexNavigation .menu a {
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  transition: cubic-bezier(0.49, 0.11, 0.64, 0.97) 0.5s; }
+
+.flexNavigation .menu a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 0;
+  background: #fff;
+  transition: .3s; }
+
+.flexNavigation .menu a:hover {
+  padding-left: 10px; }
+
+.flexNavigation .menu li:hover > ul {
+  opacity: 1; }
+
+.flexNavigation .menu li:hover > ul > li {
+  margin: 0; }
+
+/*********************** Styles for collapsed ****************/
+.flexNavigation.collapsed {
+  left: 100%;
+  margin-left: -50px;
+  top: 0;
+  height: 50px;
+  width: 50px; }
+
+.flexNavigation.collapsed .menuButton i.fa-close {
+  top: -50px; }
+
+/*********************** Styles for expanded ****************/
+.flexNavigation.expanded {
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  margin-left: 0;
+  left: 0; }
+
+.flexNavigation.expanded .container {
+  background-color: #02031D;
+  overflow: auto;
+  height: 100%;
+  width: 100%; }
+
+.flexNavigation.expanded .logoWrapper {
+  height: auto;
+  min-width: 100%;
+  margin-top: 12px; }
+
+.flexNavigation.expanded .menu {
+  display: block;
+  color: white;
+  box-sizing: border-box;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%); }
+
+@media only screen and (min-width: 800px) {
+  .flexNavigation .menu > ul {
+    list-style: none;
+    display: block;
+    font-size: 54px;
+    font-weight: 700; }
+  .flexNavigation .menu > ul li {
+    line-height: 60px; } }

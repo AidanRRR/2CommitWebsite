@@ -1,0 +1,8 @@
+.mindBg {
+  background: url("../../images/mindBg.png") 160% 10% no-repeat, url(../../images/glow.png) left top no-repeat #02031d; }
+
+.faceBg {
+  background: url("../../images/mainFace.png") 60% 50% no-repeat, url(../../images/glow.png) left top no-repeat #02031d; }
+
+.planetBg {
+  background: url("../../images/planetBg.png") 60% 50% no-repeat, url(../../images/glow.png) left top no-repeat #02031d; }
