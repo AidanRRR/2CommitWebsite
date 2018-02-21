@@ -1,48 +1,29 @@
 {
   "name": "2commitwebsite",
   "version": "1.0.0",
-  "description": "The 2Commit company website",
-  "main": "server.js",
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "script": "server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AidanRRR/2CommitWebsite.git"
   },
-  "author": "Aidan Rypens",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AidanRRR/2CommitWebsite/issues"
   },
   "homepage": "https://github.com/AidanRRR/2CommitWebsite#readme",
-  "devDependencies": {
-    "babel-preset-es2015": "^6.24.1",
-    "browser-sync": "^2.18.12",
-    "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-cache": "^0.4.6",
-    "gulp-imagemin": "^3.2.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-useref": "^3.1.2",
-    "run-sequence": "^1.2.2"
-  },
   "dependencies": {
-    "async": "^2.5.0",
-    "asyncawait": "^1.0.6",
-    "azure-storage": "^2.2.1",
-    "body-parser": "^1.17.2",
-    "express": "^4.15.3",
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "morgan": "^1.8.2",
-    "node-requirejs": "^0.1.1",
-    "sendgrid": "^5.1.2",
-    "twitter": "^1.7.1",
-    "vue-clipboard": "0.0.1",
-    "wait.for": "^0.6.6"
-  },
-  "engines": {
-    "node": "6.10.0"
+    "gulp-cache": "^1.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-useref": "^3.1.4",
+    "run-sequence": "^2.2.1"
   }
 }
